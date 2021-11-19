@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('/src/main/webpack/resources/fonts/MYRIADPRO-REGULAR.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: lighter;
+    src: local('Myriad Pro Light'), url('/src/main/webpack/resources/fonts/MyriadPro-Light.woff') format('woff');
+  }
+  
+  /* @font-face {
+    font-family: 'Myriad Pro Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Semibold'), url('/src/main/webpack/resources/fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Myriad Pro Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Semibold Italic'), url('/src/main/webpack/resources/fonts/MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+  } */
+  
+  @font-face {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Myriad Pro Bold'), url('/src/main/webpack/resources/fonts/MYRIADPRO-BOLD.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Myriad Pro';
+    font-style: italic;
+    font-weight: bold;
+    src: local('Myriad Pro Bold Italic'), url('/src/main/webpack/resources/fonts/MYRIADPRO-BOLDIT.woff') format('woff');
+  }
+  
