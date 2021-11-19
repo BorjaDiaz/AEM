@@ -18,14 +18,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.adobe.aem.pizzabay.frontend</groupId>
-        <artifactId>pizzabay</artifactId>
+        <groupId>com.pizzabay005</groupId>
+        <artifactId>pizzabay005</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>pizzabay.core</artifactId>
-    <name>Pizzabay Frontend Test - Core</name>
-    <description>Core bundle for Pizzabay Frontend Test</description>
+    <artifactId>pizzabay005.core</artifactId>
+    <name>Pizzabay005 - Core</name>
+    <description>Core bundle for Pizzabay005</description>
     <build>
         <plugins>
             <plugin>
@@ -155,7 +155,6 @@ Import-Package: javax.annotation;version=0.0.0,*
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>uber-jar</artifactId>
-            <classifier>apis</classifier>
         </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>

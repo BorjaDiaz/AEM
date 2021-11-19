@@ -32,9 +32,9 @@ services:
       - SHARED_FOLDER=/tmp/shared
       - HEADLESS_BROWSER
     volumes:
-      - ./reports:/tmp/reports
+      - ./target/reports:/tmp/reports
       - 'shared:/tmp/shared'
-    image: 'com.adobe.aem.pizzabay.frontend-pizzabay.ui.tests/ui.tests:latest'
+    image: 'com.pizzabay005-pizzabay005.ui.tests/ui.tests:latest'
   selenium-chrome:
     image: 'selenium/standalone-chrome-debug:latest'
     ports:

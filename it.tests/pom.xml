@@ -18,15 +18,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.adobe.aem.pizzabay.frontend</groupId>
-        <artifactId>pizzabay</artifactId>
+        <groupId>com.pizzabay005</groupId>
+        <artifactId>pizzabay005</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>pizzabay.it.tests</artifactId>
-    <name>Pizzabay Frontend Test - Integration Tests</name>
-    <description>Integration Tests for Pizzabay Frontend Test</description>
+    <artifactId>pizzabay005.it.tests</artifactId>
+    <name>Pizzabay005 - Integration Tests</name>
+    <description>Integration Tests for Pizzabay005</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,6 +39,11 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.htmlunit</groupId>
+            <artifactId>htmlunit</artifactId>
+            <version>2.45.0</version>
         </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>
@@ -169,7 +174,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.1.0</version>
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>

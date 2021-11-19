@@ -15,6 +15,6 @@
   ~ limitations under the License.
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <workspaceFilter version="1.0">
-    <filter root="/apps/pzbf-packages"/>
-    <filter root="/apps/pzbf-vendor-packages"/>
+    <filter root="/apps/bay-packages"/>
+    <filter root="/apps/bay-vendor-packages"/>
 </workspaceFilter>
