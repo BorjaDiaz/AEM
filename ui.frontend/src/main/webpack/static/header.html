@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Header- PizzaBay</title>
+    <meta name="template" content="page-content" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/etc.clientlibs/pzbf/clientlibs/clientlib-base.css" type="text/css">
+    <script type="text/javascript" src="/etc.clientlibs/pzbf/clientlibs/clientlib-dependencies.js"></script>
+    <link rel="stylesheet" href="/etc.clientlibs/pzbf/clientlibs/clientlib-dependencies.css" type="text/css">
+</head>
+
+<body>
+    <header class="pzbf-header">
+        <!-- Section 1 (Logo, Menu and Location) -->
+        <div class="pzbf-header__section1">
+            <img class="pzbf-header__image" src="/src/main/webpack/resources/images/pizzabay_logo.png"
+                alt="PizzaBay Logo" />
+            <nav class="pzbf-header__topnav" id="header__topnav">
+                <a class="pzbf-topnav__url" href="#" class="active">Order Online</a>
+                <a class="pzbf-topnav__url" href="#">About</a>
+                <a class="pzbf-topnav__url" href="#">News</a>
+                <a class="pzbf-topnav__url" href="#">Store Locator</a>
+            </nav>
+            <a class="pzbf-topnav__collapse" href="javascript:void(0);" onclick="collapseMenu()">
+                <img width="40" height="30" src="/src/main/webpack/resources/images/collapse_icon.png"
+                    alt="Collapse Menu Icon" />
+            </a>
+            <div class="pzbf-header__text">
+                <p class="pzbf-text__location">Call and Order in Abades ▼</p>
+                <p class="pzbf-text__phone">999 999 999</p>
+            </div>
+        </div>
+        <!-- Section 2 (Products list) -->
+        <div class="pzbf-header__section2">
+            <ul class="pzbf-header__list">
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/pizza_icon.png" alt="Pizza Icon" /> Pizza</li>
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/burger_icon.png" alt="Burger Icon" /> Burgers</li>
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/salad_icon.png" alt="Salads Icon" /> Salads</li>
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/taco_icon.png" alt="Tacos Icon" /> Tacos</li>
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/wrap_icon.png" alt="Wraps Icon" /> Wraps</li>
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/fries_icon.png" alt="Fries Icon" /> Fries</li>
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/salad_icon.png" alt="Salads Icon" /> Salads</li>
+                <li class="pzbf-list__item"><img class="pzbf-item__img"
+                        src="/src/main/webpack/resources/images/drink_icon.png" alt="Drinks Icon" /> Drinks</li>
+            </ul>
+        </div>
+    </header>
+
+</body>
+<script>
+    function collapseMenu() {
+        var x = document.getElementById("header__topnav");
+        if (x.className === "pzbf-header__topnav") {
+            x.className += "--mobile";
+            console.log("x");
+        } else {
+            x.className = "pzbf-header__topnav";
+        }
+    }
+</script>
+<script type="text/javascript" src="/etc.clientlibs/pzbf/clientlibs/clientlib-site.js"></script>
+<script type="text/javascript" src="/etc.clientlibs/pzbf/clientlibs/clientlib-base.js"></script>
+
+</html>
