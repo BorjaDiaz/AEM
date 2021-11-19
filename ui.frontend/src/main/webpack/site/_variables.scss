@@ -1,0 +1,36 @@
+
+//== Font
+
+$font-family:           "Myriad Pro", Helvetica, Arial, sans-serif;
+$font-size:             16px;
+$font-height:           1.5;
+
+//== Color
+
+// Normal mode
+$color-foreground:      #202020;
+$color-link:            #2020E0;
+$color-background:      #FFFFFF;
+$color-primary:         #C00A27;
+$color-secundary:       #FFAE00;
+$color-bg-footer:       #2C2C2C;
+$color-bg:              #F5F2EB;
+$color-text:            #FFFFFF;
+$color-button:          #F0002F;
+$color-radio-btn:       #FFCD00;
+$color-grey-footer:     #969696;
+
+// Media query
+$mobile-media:          400px;
+$tablet-media:          750px;
+$desktop-media:         1200px;  
+/*
+Mobile: (min-width: 350px)
+Tablet: (min-width: 750px)
+Desktop: (min-width: 1200px)
+*/
+
+// Dark mode
+$color-foreground-dark: invert($color-foreground);
+$color-background-dark: invert($color-background);
+$color-link-dark:       invert($color-link);

@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>slider</title>
+  <meta name="template" content="page-content"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="/etc.clientlibs/pzbf/clientlibs/clientlib-base.css" type="text/css">
+  <script type="text/javascript" src="/etc.clientlibs/pzbf/clientlibs/clientlib-dependencies.js"></script>
+  <link rel="stylesheet" href="/etc.clientlibs/pzbf/clientlibs/clientlib-dependencies.css" type="text/css">
+</head>
+<body class="page basicpage">
+
+  <!-- Carousel container -->
+  <div class="pzbf-carousel">
+
+    <!-- Images with caption text -->
+    <div class="pzbf-carousel__slide pzbf-carousel__slide--fade">
+      <!-- Slide Text -->
+      <div class="pzbf-carousel__text">
+        <p class="pzbf-text__subtitle"><span class="pzbf-text__badge">new!</span> Limited time offer</p>
+        <h3 class="pzbf-text__title">Deluxe BBQ <span class="pzbf-text__title--light">chicken</span></h3>
+        <ul class="pzbf-text__list">
+          <li class="pzbf-text__list-item">Bacon</li>
+          <li class="pzbf-text__list-item">Grilled Onions</li>
+          <li class="pzbf-text__list-item">Potatos</li>
+        </ul>
+      </div>
+      <!-- Slide Overlay -->
+      <div class="pzbf-carousel__overlay"></div>
+      <!-- Slide Image -->
+      <div class="pzbf-carousel__image-container">
+        <img class="pzbf-carousel__image" src="https://via.placeholder.com/1392x780">
+      </div>
+    </div>
+
+    <div class="pzbf-carousel__slide pzbf-carousel__slide--fade">
+      <!-- Slide Text -->
+      <div class="pzbf-carousel__text">Caption Two</div>
+      <!-- Slide Overlay -->
+      <div class="pzbf-carousel__overlay"></div>
+      <!-- Slide Image -->
+      <div class="pzbf-carousel__image-container">
+        <img class="pzbf-carousel__image" src="https://via.placeholder.com/1392x780">
+      </div>
+    </div>
+
+    <div class="pzbf-carousel__slide pzbf-carousel__slide--fade">
+      <!-- Slide Text -->
+      <div class="pzbf-carousel__text">Caption Three</div>
+      <!-- Slide Overlay -->
+      <div class="pzbf-carousel__overlay"></div>
+      <!-- Slide Image -->
+      <div class="pzbf-carousel__image-container">
+        <img class="pzbf-carousel__image" src="https://via.placeholder.com/1392x780">
+      </div>
+    </div>
+
+    <!-- The dots/circles -->
+    <div class="pzbf-carousel__dot-container">
+      <span  class="pzbf-carousel__dot" onclick="currentSlide(1)"></span>
+      <span class="pzbf-carousel__dot" onclick="currentSlide(2)"></span>
+      <span class="pzbf-carousel__dot" onclick="currentSlide(3)"></span>
+    </div>
+
+  </div>
+
+  <!-- Launcher container -->
+  <div class="pzbf-launcher__container">
+
+    <!-- Launcher -->
+    <div class="pzbf-launcher">
+      <a href="#" class="pzbf-launcher__link">
+        <!-- Launcher Image -->
+          <img class="pzbf-launcher__image pzbf-launcher__image--big" src="https://via.placeholder.com/750" alt="">
+        <!-- Launcher Text -->
+        <div class="pzbf-launcher__text pzbf-launcher__text--left">
+          Quattro Formaggi
+          <span class="pzbf-launcher__badge">Pizzeta</span>
+          <span class="pzbf-launcher__badge--red">Hot & spicy</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Launcher -->
+    <div class="pzbf-launcher">
+      <a href="#" class="pzbf-launcher__link">
+        <!-- Launcher Image -->
+          <img class="pzbf-launcher__image pzbf-launcher__image--small" src="https://via.placeholder.com/750" alt="">
+        <!-- Launcher Text -->
+        <div class="pzbf-launcher__text pzbf-launcher__text--right">
+          <span class="pzbf-launcher__badge pzbf-launcher__badge--big">Free</span>
+          fries
+          <span class="pzbf-launcher__badge">for burguers</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Launcher -->
+    <div class="pzbf-launcher">
+      <a href="#" class="pzbf-launcher__link">
+        <!-- Launcher Image -->
+          <img class="pzbf-launcher__image pzbf-launcher__image--small" src="https://via.placeholder.com/750" alt="">
+        <!-- Launcher Text -->
+        <div class="pzbf-launcher__text pzbf-launcher__text--right">
+          <span class="pzbf-launcher__badge pzbf-launcher__badge--big">Iced</span>
+          Coffee
+          <span class="pzbf-launcher__badge">*Only in local</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Launcher -->
+    <div class="pzbf-launcher">
+      <a href="#" class="pzbf-launcher__link">
+        <!-- Launcher Image -->
+          <img class="pzbf-launcher__image pzbf-launcher__image--large" src="https://via.placeholder.com/750" alt="">
+        <!-- Launcher Text -->
+        <div class="pzbf-launcher__text pzbf-launcher__text--center">
+          <span class="pzbf-launcher__badge pzbf-launcher__badge--yellow">Free</span>
+          Delivery
+        </div>
+      </a>
+    </div>
+  
+  </div>
+
+<!-- <script>
+  let carouselIndex = 1;
+  showCarousel(carouselIndex);
+
+  function currentSlide(dotNumber) {
+    showCarousel(carouselIndex = dotNumber);
+  }
+
+  function showCarousel(n) {
+    let slides = document.getElementsByClassName("pzbf-carousel__slide");
+    let dots = document.getElementsByClassName("pzbf-carousel__dot");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].className = slides[i].className.replace(" pzbf-carousel__slide--active", "");
+    }
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" pzbf-carousel__dot--active", "")
+    }
+    slides[carouselIndex-1].className += " pzbf-carousel__slide--active";
+    dots[carouselIndex-1].className += " pzbf-carousel__dot--active";
+  }
+</script> -->
+
+<script type="text/javascript" src="/etc.clientlibs/pzbf/clientlibs/clientlib-site.js"></script>
+<script type="text/javascript" src="/etc.clientlibs/pzbf/clientlibs/clientlib-base.js"></script>
+</body>
+</html>
