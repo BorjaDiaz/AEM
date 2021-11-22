@@ -339,6 +339,20 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
+            <structure jcr:primaryType="nt:unstructured">
+                <contentpage jcr:primaryType="nt:unstructured">
+                    <policy_1637575085550
+                        jcr:lastModified="{Date}2021-11-22T11:17:19.181+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Page Root"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[pizza005.dependencies,pizza005.components]"
+                        clientlibsJsHead="pizza005.dependencies">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1637575085550>
+                </contentpage>
+            </structure>
         </components>
     </pizza005>
 </jcr:root>

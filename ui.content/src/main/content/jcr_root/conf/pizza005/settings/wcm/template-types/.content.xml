@@ -4,6 +4,10 @@
     jcr:primaryType="cq:Page">
     <nextjs-page/>
     <remote-page/>
+<<<<<<< HEAD
+=======
+    <page-pizzabay-empty/>
+>>>>>>> f7eb88988bca099bea5277abd150735da8486cb9
     <xf/>
     <rep:policy/>
     <page/>
