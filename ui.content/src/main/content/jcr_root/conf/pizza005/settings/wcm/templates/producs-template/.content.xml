@@ -3,11 +3,15 @@
     jcr:primaryType="cq:Template">
     <jcr:content
 <<<<<<< HEAD
+<<<<<<< HEAD
         cq:lastModified="{Date}2021-11-22T10:59:57.274+01:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/pizza005/settings/wcm/template-types/page-pizzabay-empty"
 =======
         cq:lastModified="{Date}2021-11-22T12:27:12.526+01:00"
+=======
+        cq:lastModified="{Date}2021-11-22T13:09:21.179Z"
+>>>>>>> Develop
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/pizza005/settings/wcm/template-types/page"
 >>>>>>> Develop
