@@ -2,10 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2021-11-22T13:09:21.179Z"
-        cq:lastModifiedBy="admin"
-        cq:templateType="/conf/pizza005/settings/wcm/template-types/page"
+        jcr:description="Pixie Empty Template for generic pages"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Producs template"
-        status="enabled"/>
+        jcr:title="PizzaBay Empty Page"/>
 </jcr:root>
