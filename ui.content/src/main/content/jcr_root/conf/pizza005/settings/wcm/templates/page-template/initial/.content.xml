@@ -4,17 +4,15 @@
     <jcr:content
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="&#xa;pizza005/components/structure/contentpage">
+        sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
-                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
-                jcr:lastModifiedBy="admin"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <container
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="pizza005/components/container"
+                layout="responsiveGrid"/>
         </root>
     </jcr:content>
 </jcr:root>
