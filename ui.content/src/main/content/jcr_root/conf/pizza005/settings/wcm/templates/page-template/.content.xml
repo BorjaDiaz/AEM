@@ -2,10 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:created="{Date}2018-10-22T17:08:28.689+05:30"
-        cq:createdBy="admin"
-        jcr:description="PizzabayAgents005 Remote Page Template"
+        cq:lastModified="{Date}2021-11-22T11:58:44.218+01:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/pizza005/settings/wcm/template-types/page-pizzabay-empty"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Remote SPA Page"
+        jcr:title="Page Template"
         status="enabled"/>
 </jcr:root>
