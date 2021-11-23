@@ -1,0 +1,10 @@
+<sly data-sly-use.nav="com.pizza.agents.core.models.Navigation"></sly>
+
+    <div class="pzbf-header__section">
+
+        <nav class="pzbf-header__topnav" id="header__topnav">
+            <sly data-sly-list.linking="${nav.links}">
+                <a class="pzbf-topnav__url" href="${linking.linkURL}">${linking.text}</a>
+            </sly>
+        </nav>
+    </div>
