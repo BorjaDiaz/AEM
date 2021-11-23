@@ -18,4 +18,7 @@
                 layout="responsiveGrid"/>
         </root>
     </jcr:content>
+    <chicken-wrap/>
+    <salad-wrap/>
+    <italy-wrap/>
 </jcr:root>
