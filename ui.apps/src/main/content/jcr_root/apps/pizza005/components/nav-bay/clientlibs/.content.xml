@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:ClientLibraryFolder"
+<<<<<<< HEAD:ui.apps/src/main/content/jcr_root/apps/pizza005/components/nav-bay/clientlibs/.content.xml
     categories="[pizza005.components]"/>
+=======
+    categories="[pizza005.components.header-bay]"/>
+>>>>>>> cc6bf9530ad024b6b5706cdb757c5b2839ee7c73:ui.apps/src/main/content/jcr_root/apps/pizza005/components/header-bay/clientlib/.content.xml
