@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2021-11-22T11:17:19.184+01:00"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/pizza005/settings/wcm/template-types/page-pizzabay-empty"
+        cq:templateType="/conf/pizza005/settings/wcm/template-types/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Page Template"
         status="enabled"/>
