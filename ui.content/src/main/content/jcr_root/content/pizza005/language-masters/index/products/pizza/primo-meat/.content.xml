@@ -2,8 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-11-22T15:17:51.388Z"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         jcr:primaryType="cq:PageContent"
+        jcr:title="Primo Meat"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -19,52 +22,65 @@
             <text_1423635834
                 jcr:created="{Date}2021-11-22T13:08:34.188Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:08:51.002Z"
+                jcr:lastModified="{Date}2021-11-22T15:17:51.385Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>99.99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_1310728108
                 jcr:created="{Date}2021-11-22T13:08:32.124Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:08:55.187Z"
+                jcr:lastModified="{Date}2021-11-22T15:17:44.134Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>29 cm&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_536436341
                 jcr:created="{Date}2021-11-22T13:08:30.069Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:08:58.760Z"
+                jcr:lastModified="{Date}2021-11-22T15:17:38.338Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>99.99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_1280387070
                 jcr:created="{Date}2021-11-22T13:08:23.753Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:02.215Z"
+                jcr:lastModified="{Date}2021-11-22T15:17:31.142Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>29 cm&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_726754299
                 jcr:created="{Date}2021-11-22T13:08:21.442Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:05.540Z"
+                jcr:lastModified="{Date}2021-11-22T15:17:24.081Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Pick Size&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text
                 jcr:created="{Date}2021-11-22T13:08:18.976Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:08.824Z"
+                jcr:lastModified="{Date}2021-11-22T15:17:19.621Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>&lt;i>Extra-virgen olive oil, mozzarella cheese, thinly-sliced steak meat, garlic, green peppers, mushrooms and tomatoes&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true"/>
             <image
                 jcr:created="{Date}2021-11-22T13:09:21.176Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:27.178Z"
+                jcr:lastModified="{Date}2021-11-22T15:16:32.024Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/image"/>
+                sling:resourceType="pizza005/components/image"
+                fileReference="/content/dam/pizza005/meat.jpg"/>
         </root>
     </jcr:content>
 </jcr:root>

@@ -18,4 +18,7 @@
                 layout="responsiveGrid"/>
         </root>
     </jcr:content>
+    <green-salad/>
+    <red-salad/>
+    <mixed-salad/>
 </jcr:root>

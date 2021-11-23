@@ -2,8 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-11-22T15:15:41.179Z"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         jcr:primaryType="cq:PageContent"
+        jcr:title="Supreme Pizza"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -19,52 +22,69 @@
             <text_1423635834
                 jcr:created="{Date}2021-11-22T13:08:34.188Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:08:51.002Z"
+                jcr:lastModified="{Date}2021-11-22T15:15:41.177Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>99.99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_1310728108
                 jcr:created="{Date}2021-11-22T13:08:32.124Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:08:55.187Z"
+                jcr:lastModified="{Date}2021-11-22T15:15:33.305Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>29 cm&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_536436341
                 jcr:created="{Date}2021-11-22T13:08:30.069Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:08:58.760Z"
+                jcr:lastModified="{Date}2021-11-22T15:15:26.656Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>99.99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_1280387070
                 jcr:created="{Date}2021-11-22T13:08:23.753Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:02.215Z"
+                jcr:lastModified="{Date}2021-11-22T15:15:16.437Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>29 cm&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text_726754299
                 jcr:created="{Date}2021-11-22T13:08:21.442Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:05.540Z"
+                jcr:lastModified="{Date}2021-11-22T15:14:58.845Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Pick Size&lt;/p>&#xa;"
+                textIsRich="true"/>
             <text
                 jcr:created="{Date}2021-11-22T13:08:18.976Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:08.824Z"
+                jcr:lastModified="{Date}2021-11-22T15:14:46.654Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/text"/>
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>&lt;i>Ricotta, sun dried tomatoes, garlic, mozzarella cheese, topped with lightly drizzled red sauce, pesto and fresh basil&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true"/>
             <image
                 jcr:created="{Date}2021-11-22T13:09:21.176Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:09:27.178Z"
+                jcr:lastModified="{Date}2021-11-22T15:13:53.145Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/image"/>
+                sling:resourceType="pizza005/components/image"
+                altValueFromDAM="false"
+                displayPopupTitle="false"
+                fileReference="/content/dam/pizza005/supreme.jpg"
+                isDecorative="false"
+                titleValueFromDAM="false"/>
         </root>
     </jcr:content>
 </jcr:root>
