@@ -1,23 +1,8 @@
-<div class="pzbf-prefooter"
-     data-sly-use.templates="core/wcm/components/commons/v1/templates.html">
-    <div class="pzbf-prefooter__item" data-sly-test="${properties.fileReference1 || properties.title1 || properties.text1}">
-        <img class="pzbf-prefooter__item__image" src="${properties.fileReference1}" alt="">
-        <span class="pzbf-prefooter__item__title">${properties.title1}</span>
-        <span class="pzbf-prefooter__item__description">${properties.text1}</span>
-    </div>
-    <div class="pzbf-prefooter__item" data-sly-test="${properties.fileReference2 || properties.title2 || properties.text2}">
-        <img class="pzbf-prefooter__item__image" src="${properties.fileReference2}" alt="">
-        <span class="pzbf-prefooter__item__title">${properties.title2}</span>
-        <span class="pzbf-prefooter__item__description">${properties.text2}</span>
-    </div>
-    <div class="pzbf-prefooter__item" data-sly-test="${properties.fileReference3 || properties.title3 || properties.text3}">
-        <img class="pzbf-prefooter__item__image" src="${properties.fileReference3}" alt="">
-        <span class="pzbf-prefooter__item__title">${properties.title3}</span>
-        <span class="pzbf-prefooter__item__description">${properties.text3}</span>
-    </div>
-    <div class="pzbf-prefooter__item" data-sly-test="${properties.fileReference4 || properties.title4 || properties.text4}">
-        <img class="pzbf-prefooter__item__image" src="${properties.fileReference4}" alt="">
-        <span class="pzbf-prefooter__item__title">${properties.title4}</span>
-        <span class="pzbf-prefooter__item__description">${properties.text4}</span>
-    </div>
+<div class="pzbf-prefooter__item"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.hasContent="${properties.fileReference || properties.title || properties.text}">
+    <img class="pzbf-prefooter__item__image" src="${properties.fileReference}">
+    <span class="pzbf-prefooter__item__title">${properties.title}</span>
+    <span class="pzbf-prefooter__item__description"><p>${properties.text}</p></span>
 </div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!hasContent}"></sly>
