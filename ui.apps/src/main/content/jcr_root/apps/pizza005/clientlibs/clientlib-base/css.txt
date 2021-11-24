@@ -16,5 +16,6 @@
 
 #base=css
 
-_variables.less
-general.css
+general.less
+header.less
+../resources/glider/css/glider.min.css
