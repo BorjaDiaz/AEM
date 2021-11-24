@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-11-23T18:09:33.963Z"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/pizza005/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -10,17 +12,75 @@
         jcr:title="Footer"
         sling:resourceType="pizza005/components/xfpage">
         <root
+            cq:styleIds="[1637671418841]"
+            jcr:lastModified="{Date}2021-11-23T16:56:13.387Z"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="pizza005/components/container"
             layout="responsiveGrid">
-            <separator
+            <social
+                jcr:created="{Date}2021-11-23T17:30:29.189Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-23T18:09:33.872Z"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="pizza005/components/separator"/>
-            <text
+                sling:resourceType="pizza005/components/social"
+                fb="true"
+                ins="false"
+                li="true"
+                rs="true"
+                tw="true"
+                yt="true"/>
+            <image
+                jcr:created="{Date}2021-11-22T14:53:10.549Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:20:40.915Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                fileReference="/content/dam/pizza005/pizzabay_logo.png">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="5"
+                        width="2"/>
+                </cq:responsive>
+            </image>
+            <footer_info
+                jcr:created="{Date}2021-11-23T17:08:08.370Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-23T17:08:58.752Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/footer-info"
+                text_location="Abades, Santa Cruz de Tenerife"
+                text_name="Pizzabay Restaurant"
+                text_tfn="Telephone: 999 999 999"/>
+            <text_560274935
+                cq:styleIds="[1637679703479]"
+                jcr:created="{Date}2021-11-22T14:53:19.752Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-23T15:02:49.180Z"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/text"
-                text="&lt;p>Copyright 2021, PizzabayAgents005.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;&lt;p>345 Park Avenue,&amp;nbsp;San Jose, CA 95110-2704, USA&lt;/p>&#xd;&#xa;"
-                textIsRich="true"/>
+                text="&lt;p>Copyright © 2021 Pizzabay. All rights reserved.&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="newline"
+                        offset="5"
+                        width="2"/>
+                </cq:responsive>
+            </text_560274935>
+            <findusmap
+                jcr:created="{Date}2021-11-23T17:31:22.328Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-23T17:31:22.328Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/findusmap"/>
         </root>
     </jcr:content>
 </jcr:root>

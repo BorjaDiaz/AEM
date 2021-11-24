@@ -18,7 +18,7 @@
                 layout="responsiveGrid"/>
         </root>
     </jcr:content>
-    <spicy-fries/>
-    <italy-fries/>
     <gajo-fries/>
+    <italy-fries/>
+    <spicy-fries/>
 </jcr:root>
