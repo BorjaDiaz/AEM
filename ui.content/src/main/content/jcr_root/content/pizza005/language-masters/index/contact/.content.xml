@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-22T12:52:18.584Z"
+        cq:lastModified="{Date}2021-11-24T10:03:25.964Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:primaryType="cq:PageContent"
@@ -15,7 +15,30 @@
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/container"
-                layout="responsiveGrid"/>
+                layout="responsiveGrid">
+                <nav_bay
+                    jcr:created="{Date}2021-11-24T08:56:37.075Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-24T08:57:11.681Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/nav-bay">
+                    <links jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/pizza005/language-masters/index"
+                            text="Order online"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/pizza005/language-masters/index/about"
+                            text="About"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            linkURL="/content/pizza005/language-masters/index/news"
+                            text="News"/>
+                    </links>
+                </nav_bay>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>
