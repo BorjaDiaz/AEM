@@ -19,10 +19,6 @@
   text-decoration: none;
 }
 
-.active {
-  color: @color-text;
-}
-
 .pzbf-topnav__url{
   color: @color-text;
   transition: .3s;
@@ -32,13 +28,13 @@
   opacity: .7;
 }
 
-.active {
+.activeLink {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.active::after{
+.activeLink::after{
   margin-top: 3px;
   width: 65%;
   content: "";

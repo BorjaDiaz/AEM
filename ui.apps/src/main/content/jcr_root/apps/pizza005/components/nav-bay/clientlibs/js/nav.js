@@ -13,7 +13,7 @@ if (noSpace == undefined){
 
     if (locString.includes("index.html")){
         
-        linkedArray.find(element => element.innerHTML.toLowerCase() == 'order online').classList.toggle('active');
+        linkedArray.find(element => element.innerHTML.toLowerCase() == 'order online').classList.toggle('activeLink');
     }
 
     else {
@@ -21,7 +21,7 @@ if (noSpace == undefined){
             if(element.innerHTML.toLowerCase().indexOf(' ') !== -1){
     
                 if (locString.includes(element.innerHTML.toLowerCase().slice(0, element.innerHTML.toLowerCase().indexOf(' ')))){
-                    element.classList.toggle('active'); 
+                    element.classList.toggle('activeLink'); 
                 }
             }
         });
@@ -29,6 +29,6 @@ if (noSpace == undefined){
 }
 
 else {
-    noSpace.classList.toggle('active')
+    noSpace.classList.toggle('activeLink')
 }
 
