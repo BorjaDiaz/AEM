@@ -15,7 +15,7 @@
 */-->
 
 <p data-sly-test="${properties.text}">${properties.text}</p>
-<div class="pzbf-social">
+<div class="pzbf-social" data-sly-use.template="core/wcm/components/commons/v1/templates.html" data-sly-test.hasContent="${properties.fb}">
     <i data-sly-test="${properties.fb}" class="fab fa-facebook-square pzbf-social__icon"></i>
     <i data-sly-test="${properties.tw}" class="fab fa-twitter pzbf-social__icon"></i>
     <i data-sly-test="${properties.li}" class="fab fa-linkedin pzbf-social__icon"></i>
@@ -24,3 +24,4 @@
     <i data-sly-test="${properties.ins}" class="fab fa-instagram pzbf-social__icon"></i>
     <i data-sly-test="${properties.mail}" class="fa fa-envelope pzbf-social__icon"></i>
 </div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!hasContent}"></sly>
