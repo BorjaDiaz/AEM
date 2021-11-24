@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-11-19T13:56:19.096+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/pix/settings/wcm/templates/pixie-template-dynamic"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="pix/components/structure/contentpage">
+        <root
+            jcr:lastModified="{Date}2021-11-04T12:56:18.103+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <experiencefragment
+                jcr:created="{Date}2021-11-12T09:43:11.590+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-17T10:12:34.968+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pix/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/pix/us/en/site/header-pixie/master">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="15"/>
+                </cq:responsive>
+            </experiencefragment>
+            <products
+                jcr:created="{Date}2021-11-17T15:53:54.361+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-19T13:56:19.093+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pix/components/structure/products"
+                navigationRoot="/content/pix/languaje-master/english/products">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </products>
+            <responsivegrid
+                jcr:created="{Date}2021-11-04T12:56:34.747+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-04T12:56:34.747+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid>
+            <experiencefragment_969082833
+                jcr:created="{Date}2021-11-12T09:43:14.092+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-15T15:47:00.144+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pix/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/pix/us/en/site/footer-pixie/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

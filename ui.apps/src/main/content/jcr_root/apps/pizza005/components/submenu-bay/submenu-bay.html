@@ -1,0 +1,26 @@
+<sly data-sly-use.model="${'com.pizza.agents.core.models.Submenu' @linkURL=properties.linkURL}"></sly>
+
+
+<div class="pzbf-header__section2 hidde">
+    <ul data-sly-list.listing="${model.pathList}" class="pzbf-header__list">
+        
+            <a href="#" class="pzbf-list__item--URL"><li class="pzbf-list__item"><img class="pzbf-item__img" src="${listing.asset}" alt="Icon" />${listing.title}</li></a>
+        
+    </ul>
+    
+</div>
+
+<div data-sly-test="${!properties.linkURL}">
+    <div class="pzbf-header__section2">
+
+        <ul class="pzbf-header__list">
+            
+                <a href="#" class="pzbf-list__item--URL"><li class="pzbf-list__item"><img class="pzbf-item__img" src="/content/dam/pizza005/icons/drink_icon.png" alt="Icon" />Item</li></a>
+                <a href="#" class="pzbf-list__item--URL"><li class="pzbf-list__item"><img class="pzbf-item__img" src="/content/dam/pizza005/icons/drink_icon.png" alt="Icon" />Item</li></a>
+                <a href="#" class="pzbf-list__item--URL"><li class="pzbf-list__item"><img class="pzbf-item__img" src="/content/dam/pizza005/icons/drink_icon.png" alt="Icon" />Item</li></a>
+                <a href="#" class="pzbf-list__item--URL"><li class="pzbf-list__item"><img class="pzbf-item__img" src="/content/dam/pizza005/icons/drink_icon.png" alt="Icon" />Item</li></a>
+
+        </ul>
+        
+    </div>
+</div>
