@@ -16,5 +16,5 @@
 
 #base=css
 
-_variables.less
-general.css
+general.less
+header.less
