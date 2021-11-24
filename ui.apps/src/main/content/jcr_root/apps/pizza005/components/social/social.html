@@ -14,10 +14,13 @@
     limitations under the License.
 */-->
 
-<p>${properties.text || 'social media'}</p>
-<i data-sly-test="${properties.fb}" class="fab fa-facebook"></i>
-<i data-sly-test="${properties.tw}" class="fab fa-twitter"></i>
-<i data-sly-test="${properties.li}" class="fab fa-linkedin"></i>
-<i data-sly-test="${properties.rs}" class="fa fa-rss"></i>
-<i data-sly-test="${properties.yt}" class="fab fa-youtube"></i>
-<i data-sly-test="${properties.ins}" class="fab fa-instagram"></i>
+<p data-sly-test="${properties.text}">${properties.text}</p>
+<div class="pzbf-social">
+    <i data-sly-test="${properties.fb}" class="fab fa-facebook-square pzbf-social__icon"></i>
+    <i data-sly-test="${properties.tw}" class="fab fa-twitter pzbf-social__icon"></i>
+    <i data-sly-test="${properties.li}" class="fab fa-linkedin pzbf-social__icon"></i>
+    <i data-sly-test="${properties.rs}" class="fa fa-rss pzbf-social__icon"></i>
+    <i data-sly-test="${properties.yt}" class="fab fa-youtube pzbf-social__icon"></i>
+    <i data-sly-test="${properties.ins}" class="fab fa-instagram pzbf-social__icon"></i>
+    <i data-sly-test="${properties.mail}" class="fa fa-envelope pzbf-social__icon"></i>
+</div>
