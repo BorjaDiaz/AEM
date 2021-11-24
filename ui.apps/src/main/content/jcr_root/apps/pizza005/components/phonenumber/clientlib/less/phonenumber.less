@@ -1,25 +1,29 @@
+@color-primary:         #C00A27;
+@color-secundary:       #FFAE00;
+
 .pzbf-header__text{
-    width: 250px;
-    height: 100px;
-    padding-top: 5px;
+    width: 100%;
+    padding-top: 15px;
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #FF0000;
+    background-color: @color-primary;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .pzbf-text__phone{
+    font-size: 1.7rem;
     color: #ffffff;
     font-weight: bold;
-    font-size: 30px;
     padding-left: 5px;
     margin-top: -10px;
 }
 .pzbf-text__location{
-    color: yellow;
-    font-size: 15px;
+    font-size: 0.7rem;
+    color: @color-secundary;
     padding-left: 15px;
     padding-bottom: -10px;
 }

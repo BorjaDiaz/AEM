@@ -1,0 +1,4 @@
+#base=css
+
+glider.min.js
+glider.css

@@ -16,7 +16,6 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Optional text"
                         name="./text"/>
-
                     <fb
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
@@ -57,6 +56,13 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
                         name="./ins"
                         text="Add instagram link?"
+                        uncheckedValue="false"
+                        value="true"/>
+                    <mail
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                        name="./mail"
+                        text="Add mail link?"
                         uncheckedValue="false"
                         value="true"/>
                 </items>
