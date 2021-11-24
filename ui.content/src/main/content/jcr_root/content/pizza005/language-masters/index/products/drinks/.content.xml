@@ -18,7 +18,7 @@
                 layout="responsiveGrid"/>
         </root>
     </jcr:content>
-    <cola/>
     <beer-light/>
+    <cola/>
     <water/>
 </jcr:root>
