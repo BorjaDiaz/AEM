@@ -21,13 +21,24 @@
 }
 
 .pzbf-list__item {
+    opacity: .7;
     display: flex;
     align-items: center;
     padding: 15px;
     margin-right: 50px;
     color: @color-text;
+    transition: opacity .2s;
 }
+
+.pzbf-list__item:hover {
+    opacity: .4;
+}
+
 .pzbf-item__img {
     margin-right: 10px;
     text-decoration: none;
+}
+
+.hidde{
+    display: none;
 }
