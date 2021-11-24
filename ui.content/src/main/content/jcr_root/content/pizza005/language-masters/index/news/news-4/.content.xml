@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-24T15:19:10.908Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/pizza005/settings/wcm/templates/news-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 4"
+        sling:resourceType="pizza005/components/page"
+        linkAsset="/content/dam/pizza005/icons/fries_icon.png">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <text_extra
+                jcr:created="{Date}2021-11-24T14:35:50.589Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T14:36:02.334Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"/>
+            <text
+                jcr:created="{Date}2021-11-24T14:35:46.541Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T14:36:03.866Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"/>
+            <title
+                jcr:created="{Date}2021-11-24T14:35:42.324Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:19:10.906Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Free Delivery"
+                sling:resourceType="pizza005/components/title"
+                type="h2"/>
+            <image
+                jcr:created="{Date}2021-11-24T14:35:37.809Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:18:59.176Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                fileReference="/content/dam/pizza005/free-delivery.jpg"/>
+        </root>
+    </jcr:content>
+</jcr:root>
