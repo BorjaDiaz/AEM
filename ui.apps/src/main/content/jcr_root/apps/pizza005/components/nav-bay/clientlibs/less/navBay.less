@@ -24,6 +24,26 @@
 
 .pzbf-topnav__url{
   color: @color-text;
+  transition: .3s;
+}
+
+.pzbf-topnav__url:hover {
+  opacity: .7;
+  letter-spacing: .5px;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active::after{
+  margin-top: 3px;
+  width: 65%;
+  content: "";
+  display: block;
+  border-bottom: 2px solid @color-secundary;
 }
 
 // Mobile First

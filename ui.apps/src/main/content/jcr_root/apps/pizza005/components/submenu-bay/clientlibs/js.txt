@@ -1,4 +1,3 @@
 #base=js
 
-nav.js
-author.js
+submenu.js
