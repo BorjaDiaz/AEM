@@ -1,8 +1,0 @@
-<div class="pzbf-prefooter__item"
-     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
-     data-sly-test.hasContent="${properties.fileReference || properties.title || properties.text}">
-    <img class="pzbf-prefooter__item__image" src="${properties.fileReference}">
-    <span class="pzbf-prefooter__item__title">${properties.title}</span>
-    <span class="pzbf-prefooter__item__description"><p>${properties.text}</p></span>
-</div>
-<sly data-sly-call="${template.placeholder @ isEmpty=!hasContent}"></sly>

@@ -1,4 +1,0 @@
-#base=js
-
-glider.min.js
-glider.js

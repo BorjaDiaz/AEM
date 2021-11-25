@@ -1,4 +1,0 @@
-
-#base=less
-
-carousel-pizzabay.less
