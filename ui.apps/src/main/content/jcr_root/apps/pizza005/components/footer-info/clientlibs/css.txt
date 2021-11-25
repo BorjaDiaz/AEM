@@ -14,6 +14,6 @@
 # limitations under the License.
 ###############################################################################
 
-#base=less
+#base=css
 
-headerBay.less
+footer-info.css

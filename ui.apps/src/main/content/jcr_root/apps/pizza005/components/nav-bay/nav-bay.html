@@ -6,23 +6,8 @@
             <sly data-sly-list.linking="${nav.links}">
                 <a class="pzbf-topnav__url" href="${linking.linkURL}">${linking.text}</a>
             </sly>
-            <i id="burger_menu_res" class="fas fa-bars"></i>
         </nav>
-
     </div>
-
-<!-- Responsive -->
-
-    <div class="responsive_menu_header hiddenMenu">
-
-        <sly data-sly-list.linking="${nav.links}">
-            <a class="pzbf-topnav__url_res" href="${linking.linkURL}">${linking.text}</a>
-        </sly>
-
-        <p class="pzbf-topnav__url_res hidde" id="food_menu_btn">Menu</p>
-    </div>
-
-<!-- PLaceholders -->
 
 <div class="pzbf-header__section" data-sly-test="${!nav.links}" style="padding: 50px;">
 
