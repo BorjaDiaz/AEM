@@ -1,0 +1,43 @@
+<sly
+    data-sly-use.templates="core/wcm/components/commons/v1/templates.html">
+        <sly data-sly-test="${properties.desing == '1'}">
+            <div class="pzbf-launcher">
+                <a href="#" class="pzbf-launcher__link">
+                    <!-- Launcher Image -->
+                    <sly data-sly-resource="${'image' @ path=properties.route, wcmmode='disabled',resourceType='pizza005/components/image', appendPath='jcr:content/root/image', decorationTagName='div', cssClassName='pzbf-launcher__image pzbf-launcher__image--big'}"></sly>
+                    <!-- Launcher Text -->
+                    <div class="pzbf-launcher__text pzbf-launcher__text--left">
+                        <sly data-sly-resource="${'title' @ path=properties.route, wcmmode='disabled',appendPath='jcr:content/root/title'}"></sly>
+                        <sly data-sly-resource="${'text' @ path=properties.route, wcmmode='disabled',appendPath='jcr:content/root/text', decorationTagName='div', cssClassName='pzbf-launcher__badge'}"></sly>
+                        <sly data-sly-resource="${'text_extra' @ path=properties.route, wcmmode='disabled',appendPath='jcr:content/root/text_extra', decorationTagName='div', cssClassName='pzbf-launcher__badge--red'}"></sly>
+                    </div>
+                </a>
+            </div>
+        </sly>
+        <sly data-sly-test="${properties.desing == '2'}">
+            <div class="pzbf-launcher">
+                <a href="#" class="pzbf-launcher__link">
+                    <!-- Launcher Image -->
+                    <sly data-sly-resource="${'image' @ path=properties.route, wcmmode='disabled',resourceType='pizza005/components/image', appendPath='jcr:content/root/image', decorationTagName='div', cssClassName='pzbf-launcher__image pzbf-launcher__image--small'}"></sly>
+                    <!-- Launcher Text -->
+                    <div class="pzbf-launcher__text pzbf-launcher__text--right">
+                        <sly data-sly-resource="${'title' @ path=properties.route, wcmmode='disabled',appendPath='jcr:content/root/title', decorationTagName='div', cssClassName='pzbf-launcher__badge pzbf-launcher__badge--big'}"></sly>
+                        <sly data-sly-resource="${'text' @ path=properties.route, wcmmode='disabled',appendPath='jcr:content/root/text', decorationTagName='div', cssClassName='pzbf-launcher__badge'}"></sly>
+                    </div>
+                </a>
+            </div>
+        </sly>
+        <sly data-sly-test="${properties.desing == '3'}">
+            <div class="pzbf-launcher">
+                <a href="#" class="pzbf-launcher__link">
+                    <!-- Launcher Image -->
+                    <sly data-sly-resource="${'image' @ path=properties.route, wcmmode='disabled',resourceType='pizza005/components/image', appendPath='jcr:content/root/image', decorationTagName='div', cssClassName='pzbf-launcher__image pzbf-launcher__image--large'}"></sly>
+                    <!-- Launcher Text -->
+                    <div class="pzbf-launcher__text pzbf-launcher__text--center">
+                        <sly data-sly-resource="${'title' @ path=properties.route, wcmmode='disabled',appendPath='jcr:content/root/title', decorationTagName='div',cssClassName='pzbf-launcher__badge pzbf-launcher__badge--yellow'}"></sly>
+                    </div>
+                </a>
+            </div>
+        </sly>
+</sly>
+<sly data-sly-call="${templates.placeholder @ isEmpty=!properties.route}"></sly>

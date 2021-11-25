@@ -1,0 +1,160 @@
+@pzby-carousel-action-size: 50px;
+@pzby-carousel-action-offset: 20px;
+@pzby-carousel-indicator-size: 10px;
+@pzby-carousel-indicators-padding-top: 35px;
+@pzby-carousel-indicators-padding-bottom: 45px;
+@pzby-carousel-indicators-height: @pzby-carousel-indicators-padding-top + @pzby-carousel-indicator-size + @pzby-carousel-indicators-padding-bottom;
+
+.pzby-carousel {
+    .cmp-carousel {
+        &:hover {
+            .cmp-carousel__action {
+                opacity: 1;
+            }
+        }
+        &__action {
+            position: absolute;
+            width: @pzby-carousel-action-size;
+            height: @pzby-carousel-action-size;
+            border: 0;
+            border-radius: 50%;
+            padding: 0;
+            line-height: @pzby-carousel-action-size;
+            opacity: 0;
+            transition: opacity linear .2s;
+            color: rgba(255, 255, 255, .8);
+            background-color: rgba(0, 0, 0, .5);
+
+            &:hover {
+                background-color: rgba(0, 0, 0, .8);
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: 0 0 0 2px rgba(94, 158, 214, .6);
+            }
+
+            &--disabled {
+                display: none;
+            }
+            
+            &--previous, &--next{
+                top: ~"calc(50% - @{pzby-carousel-indicators-padding-top})";
+            }
+
+            &--previous{
+                left: @pzby-carousel-action-offset;
+            }
+
+            &--next{
+                right: @pzby-carousel-action-offset;
+            }
+
+            &--pause, &--play{
+                bottom: @pzby-carousel-indicators-height + @pzby-carousel-action-offset;
+                left: ~"calc(50% - (@{pzby-carousel-action-size} / 2))";
+            }
+
+            &-text{
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                margin: -1px;
+                border: 0;
+                padding: 0;
+                overflow: hidden;
+                clip: rect(0,0,0,0);
+            }
+
+            &-icon{       
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 20px;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            &--previous{
+                .cmp-carousel__action-icon {
+                    margin-left: -1px;
+                    margin-top: 1px;
+        
+                    &:before {
+                        font-family: 'Font Awesome\ 5 Free';
+                        content: "\f053";
+                        font-weight: 900;
+                    }
+                }
+            }
+            &--next{
+                .cmp-carousel__action-icon {
+                    margin-left: 2px;
+                    margin-top: 1px;
+                    &:before {
+                        font-family: 'Font Awesome\ 5 Free';
+                        content: "\f054";
+                        font-weight: 900;
+                    }
+                }
+            }
+            &--pause{
+            //Ask the client if he wants the hability to pause the carousel
+            display: none;
+                .cmp-carousel__action-icon {
+                    margin-top: -2px;
+                    margin-left: 2px;
+
+                    &:before {
+                        font-family: 'Font Awesome\ 5 Free';
+                        content: "\f04c";
+                        font-weight: 900;
+                    }
+                }
+            }
+            &--play{
+            //Same with pause
+            display:none;
+                .cmp-carousel__action-icon {
+                    margin-top: -3px;
+                    margin-left: 4px;
+
+                    &:before {
+                        font-family: 'Font Awesome\ 5 Free';
+                        content: "\f04b";
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+        &__indicators{
+            padding: @pzby-carousel-indicators-padding-top 0 @pzby-carousel-indicators-padding-bottom;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            bottom: 0;
+        }
+        &__indicator{
+            outline: none;
+            border: 1px solid white;
+            background-color: white;
+            &:not(.cmp-carousel__indicator--active) {
+                cursor: pointer;
+            }
+    
+            &--active,&:hover {
+                background-color: rgba(212, 0, 0, 0.8);
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 0 0 0 2px rgba(94, 158, 214, .6);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .pzby-carousel .cmp-carousel__action {
+        opacity: 1;
+    }
+}
