@@ -1,4 +1,5 @@
 @color-primary:         #C00A27;
+@desktop-media:         1200px;  
 
 .header_background {
     background-color: @color-primary;
@@ -11,4 +12,10 @@
 
 .nav_header{
     margin-top: 3%;
+}
+
+@media(max-width: @desktop-media){
+    .header_center {
+        padding: 0 5%;
+    }
 }

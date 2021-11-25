@@ -1,4 +1,4 @@
 #base=js
 
 nav.js
-author.js
+responsiveNav.js
