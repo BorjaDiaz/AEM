@@ -1,32 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="nt:unstructured">
-    <content jcr:primaryType="nt:unstructured">
+    jcr:primaryType="nt:unstructured"
+    >
+    <content
+        jcr:primaryType="nt:unstructured"
+       >
         <items jcr:primaryType="nt:unstructured">
-            <tabs jcr:primaryType="nt:unstructured">
+            <tabs
+                
+                jcr:primaryType="nt:unstructured"
+                >
                 <items jcr:primaryType="nt:unstructured">
+                    
+                    
+                    
                     <icons
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Icons"
                         sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                        
                         <items jcr:primaryType="nt:unstructured">
-                            <column
+                        <column
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/container">
                                 <items jcr:primaryType="nt:unstructured">
-                                    <linkAsset
-                                        jcr:primaryType="nt:unstructured"
-                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                                        fieldLabel="Associate an Icon to this page"
-                                        name="./linkAsset"
-                                        nodeTypes="dam:Asset"
-                                        required="{Boolean}true"
-                                        rootPath="/content/dam"
-                                        value="/content/dam/pizza005/icons/fries_icon.png"/>
-                                </items>
+                        <linkAsset
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                            fieldLabel="Associate an Icon to this page"
+                            nodeTypes="dam:Asset"
+                            name="./linkAsset"
+                            required="{Boolean}true"
+                            value="/content/dam/pizza005/icons/fries_icon.png"
+                            rootPath="/content/dam"/>
+                            </items>
                             </column>
                         </items>
                     </icons>
+                
+            
                 </items>
             </tabs>
         </items>

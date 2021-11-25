@@ -1,4 +1,3 @@
 #base=js
 
 submenu.js
-submenuResponsive.js

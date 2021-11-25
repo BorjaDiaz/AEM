@@ -1,0 +1,27 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+
+<p data-sly-test="${properties.text}">${properties.text}</p>
+<div class="pzbf-social" data-sly-use.template="core/wcm/components/commons/v1/templates.html" data-sly-test.hasContent="${properties.fb}">
+    <i data-sly-test="${properties.fb}" class="fab fa-facebook-square pzbf-social__icon"></i>
+    <i data-sly-test="${properties.tw}" class="fab fa-twitter pzbf-social__icon"></i>
+    <i data-sly-test="${properties.li}" class="fab fa-linkedin pzbf-social__icon"></i>
+    <i data-sly-test="${properties.rs}" class="fa fa-rss pzbf-social__icon"></i>
+    <i data-sly-test="${properties.yt}" class="fab fa-youtube pzbf-social__icon"></i>
+    <i data-sly-test="${properties.ins}" class="fab fa-instagram pzbf-social__icon"></i>
+    <i data-sly-test="${properties.mail}" class="fa fa-envelope pzbf-social__icon"></i>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!hasContent}"></sly>
