@@ -1,2 +1,89 @@
-package com.pizza.agents.core.models;public class SliderCard {
+package com.pizza.agents.core.models;
+
+import static org.apache.sling.api.resource.ResourceResolver.PROPERTY_RESOURCE_TYPE;
+
+import javax.annotation.PostConstruct;
+import javax.inject.Inject;
+
+
+
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.api.resource.ResourceResolver;
+import org.apache.sling.models.annotations.Default;
+import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.injectorspecific.InjectionStrategy;
+import org.apache.sling.models.annotations.injectorspecific.SlingObject;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
+
+import com.day.cq.wcm.api.Page;
+import com.day.cq.wcm.api.PageManager;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.ArrayList;
+import java.util.Optional;
+
+
+@Model(adaptables = Resource.class)
+public class SliderCard {
+
+    @ValueMapValue(name=PROPERTY_RESOURCE_TYPE, injectionStrategy=InjectionStrategy.OPTIONAL)
+    @Default(values="No resourceType")
+    protected String resourceType;
+
+    @SlingObject
+    private Resource currentResource;
+    @SlingObject
+    private ResourceResolver resourceResolver;
+
+    private final Logger loggerCard= LoggerFactory.getLogger(SliderCard.class);
+
+    private Page page;
+
+
+
+    private ArrayList<SliderCardInfo> componentsInfo=new ArrayList<>();
+    private SliderCardInfo componentInfo=new SliderCardInfo();
+
+
+    @Inject
+    private String productsRoute;
+
+
+    @PostConstruct
+    protected void init() {
+
+        PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+
+        for (Resource rsc : resourceResolver.getResource(productsRoute).getChildren())    {
+            if(!rsc.getName().equals("jcr:content")){
+                StringBuilder str = new StringBuilder();
+                page = pageManager.getContainingPage(rsc);
+                try {
+                    componentInfo=new SliderCardInfo();
+
+                    str.append("OBTAINING DATA FROM: ").append(rsc.getName()).append(" en ").append(rsc.getPath());
+                    loggerCard.info(str.toString());
+                    str.setLength(0);
+                    componentInfo.setTitle(page.getContentResource("root").getChild("title").getPath());
+
+                    componentsInfo.add(componentInfo);
+
+                }catch(Exception e){
+                    e.printStackTrace();
+                    str.append("an error accesing child nodes has ocurred:\n");
+                }
+
+            }
+
+
+        }
+
+    }
+
+
+
+    public ArrayList<SliderCardInfo> getComponentsInfo() {
+        return componentsInfo;
+    }
 }
