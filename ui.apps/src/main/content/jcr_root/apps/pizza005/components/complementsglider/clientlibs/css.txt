@@ -1,4 +1,4 @@
 #base=css
 
-glider.min.js
+complementsglider.less
 glider.css

@@ -1,3 +1,19 @@
+var complementsOptions = document.querySelectorAll('input[type=radio][name="complements"]');
+var complementsButtonActive = undefined;
+complementsOptions.forEach(sizeOption => sizeOption.addEventListener('change', () => {
+    var button = sizeOption.parentNode.parentNode.nextSibling.nextSibling;
+    if(complementsButtonActive){
+        if (button.style.display === "" && complementsButtonActive.style.display === "inline-block"){
+            complementsButtonActive.style.display = "";
+            button.style.display = "inline-block";
+            complementsButtonActive = button;
+        }
+    } else if (button.style.display === ""){
+        button.style.display = "inline-block";
+        complementsButtonActive = button;
+    }
+}));
+
 window.addEventListener('load',function(){
     document.querySelector('.glider').addEventListener('glider-slide-visible', function(event){
         var glider = Glider(this);
