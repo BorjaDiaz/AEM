@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-24T15:16:04.039Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/pizza005/settings/wcm/templates/news-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 2"
+        sling:resourceType="pizza005/components/page"
+        linkAsset="/content/dam/pizza005/icons/fries_icon.png">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <text_extra
+                jcr:created="{Date}2021-11-24T14:35:50.589Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T14:36:02.334Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"/>
+            <text
+                jcr:created="{Date}2021-11-24T14:35:46.541Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:16:04.037Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>For burguers orders&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <title
+                jcr:created="{Date}2021-11-24T14:35:42.324Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:15:41.831Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Free Fries"
+                sling:resourceType="pizza005/components/title"
+                type="h2"/>
+            <image
+                jcr:created="{Date}2021-11-24T14:35:37.809Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:15:33.301Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                altValueFromDAM="false"
+                displayPopupTitle="false"
+                fileReference="/content/dam/pizza005/fries.jpg"
+                isDecorative="false"
+                titleValueFromDAM="false"/>
+        </root>
+    </jcr:content>
+</jcr:root>
