@@ -14,6 +14,7 @@ menuRes.addEventListener("click", ()=>{
     if (navRes.classList.contains('hiddenMenu')){
         menuRes.classList.remove('fa-times')
         menuRes.classList.add('fa-bars')
+        food_menu_btn.classList.toggle('color_active')
     }
 
     if (navRes.classList.contains('hiddenMenu') && !sectionRes.classList.contains('hiddeRes')){
