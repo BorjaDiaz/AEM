@@ -64,6 +64,7 @@
     padding-left: 40vw;
     padding-top: 5px;
     color: @color-text;
+    align-self: center;
   }
 
   #burger_menu_res:active{
@@ -108,6 +109,109 @@
   }
 }
 
+@media (max-width: @desktop-media) and (min-width: 430px) {
+  #burger_menu_res{
+    display: block;
+    font-size: 35px;
+    padding-left: 50vw;
+    color: @color-text;
+    align-self: center;
+    margin-top: 10%;
+  }
+
+  #burger_menu_res:active{
+    opacity: .5;
+  }
+
+  .pzbf-topnav__url{
+    display: none;
+  }
+
+  .responsive_menu_header{
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+  }
+
+  .responsive_menu_header p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .activeLinkRes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+  }
+  
+  .activeLinkRes::after{
+    align-self: flex-start;
+    margin-top: 3px;
+    width: 65%;
+    content: "";
+    border-bottom: 2px solid @color-secundary;
+  }
+}
+
+@media (max-width: @desktop-media) and (min-width: 750px) and (orientation: landscape){
+  #burger_menu_res{
+    display: block;
+    font-size: 45px;
+    padding-left: 30vw;
+    color: @color-text;
+    align-self: center;
+    margin-top: 10%;
+  }
+
+  #burger_menu_res:active{
+    opacity: .5;
+  }
+
+  .pzbf-topnav__url{
+    display: none;
+  }
+
+  .responsive_menu_header{
+    width: 100vw;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+  }
+
+  .responsive_menu_header p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .activeLinkRes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+  }
+  
+  .activeLinkRes::after{
+    align-self: flex-start;
+    margin-top: 3px;
+    width: 65%;
+    content: "";
+    border-bottom: 2px solid @color-secundary;
+  }
+}
 
 
 // Mobile First
