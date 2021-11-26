@@ -481,7 +481,7 @@
                 </policy_649128221558427>
                 <policy_1575040440977
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2021-11-23T13:00:14.619Z"
+                    jcr:lastModified="{Date}2021-11-26T10:21:52.711Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="XF Root"
@@ -526,7 +526,7 @@
                     </cq:styleGroups>
                 </policy_1575040440977>
                 <policy_805963597793000
-                    jcr:lastModified="{Date}2021-11-23T13:12:52.618Z"
+                    jcr:lastModified="{Date}2021-11-26T10:21:39.882Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Footer"
@@ -633,6 +633,29 @@
                     </cq:styleGroups>
                 </policy_1637831104723>
             </footer-info>
+            <nav-bay jcr:primaryType="nt:unstructured">
+                <policy_1637922440127
+                    jcr:lastModified="{Date}2021-11-26T10:28:32.656Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Header"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="margin"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="nav_header"
+                                    cq:styleId="1637922461790"
+                                    cq:styleLabel="top"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1637922440127>
+            </nav-bay>
         </components>
     </pizza005>
 </jcr:root>
