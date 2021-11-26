@@ -3,6 +3,11 @@
 @color-secundary:       #FFAE00;
 @desktop-media:         1200px;  
 
+.submenu-bay{
+    background-color: @color-primary !important;
+    border-top: none;
+}
+
 .pzbf-header__section2{
     background-color: @color-primary;
     display: flex;
@@ -60,6 +65,12 @@
 @media(max-width: @desktop-media){
     .pzbf-header__section2{
         display: none !important;
+    }
+
+    .pzbf-header__section_res{
+        background-color: @color-primary;
+        margin: 0;
+        padding: 0;
     }
 
     .pzbf-header__list {

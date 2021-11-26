@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-11-26T12:00:07.917+01:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/xf-web-variation"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="pizza005/components/xfpage">
