@@ -15,41 +15,41 @@
 */-->
 
 
+<div   data-sly-use.model="com.pizza.agents.core.models.SliderCard">
 
-<div data-sly-use.model="com.pizza.agents.core.models.SliderCard">
-    ${model.componentsInfo.toString}
-</div>
+
+
+
 <div class="glider-contain">
 
     <div class="pzbf-card-glider glider pzbf-card-glider--complements">
-        <div class="pzbf-card  pzbf-card--complements">
-            <img class="pzbf-card__image pzbf-card_image--complements" src="https://via.placeholder.com/510x510" alt="Avatar">
+
+        <div class="pzbf-card  pzbf-card--complements"   data-sly-repeat.compInfo="${model.componentsInfo}">
+            <div class="pzbf-card__image pzbf-card_image--complements"  alt="Avatar" data-sly-resource="${compInfo.imageRoute}"></div>
             <div class="pzbf-card__container pzbf-card__container--complements">
-                <p class="pzbf-card__container__title pzbf-card_container_title--complements">Cola</p>
-                <h4 class="pzbf-card__container__separator pzbf-card__container__separator--complements"><span>Pick Size</span></h4>
+                <div class="pzbf-card__container__title pzbf-card_container_title--complements" data-sly-resource="${compInfo.title}"></div>
+                <div class="pzbf-card__container__description" data-sly-resource="${compInfo.description}"></div>
+                <div class="pzbf-card__container__separator pzbf-card__container__separator--complements" data-sly-resource="${compInfo.orderText}"></div>
                 <div class="pzbf-card__container__options pzbf-card__container__options--complements">
-                    <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements"><input type="radio" name="complements" class="pzbf-card__container__options__input"/><span class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements">300</span><span class="pzbf-card__container__options__metric pzbf-card__container__options__metric--complements">ml</span>99.99 €</label>
-                    <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements"><input type="radio" name="complements" class="pzbf-card__container__options__input"/><span class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements">500</span><span class="pzbf-card__container__options__metric pzbf-card__container__options__metric--complements">ml</span>99.99 €</label>
+                    <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements">
+                        <input type="radio" name="complements" class="pzbf-card__container__options__input"/>
+                        <div  class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements" data-sly-resource="${compInfo.tamanio1}" ></div>
+                        <div class="pzbf-card__container__options__price__unit" data-sly-resource="${compInfo.price1}" ></div>
+                    </label>
+                    <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements">
+                        <input type="radio" name="complements" class="pzbf-card__container__options__input"/>
+                        <div  class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements" data-sly-resource="${compInfo.tamanio2}" ></div>
+                        <div class="pzbf-card__container__options__price__unit" data-sly-resource="${compInfo.price2}" ></div>
+                    </label>
                 </div>
-                <button class="pzbf-card__container__button pzbf-card__container__button--complements"><i  class="pzbf-card__container__icon pzbf-card__container__icon--complements fas fa-shopping-bag"></i>Add to Order</button>
-            </div>
-        </div>
-        <div class="pzbf-card  pzbf-card--complements">
-            <img class="pzbf-card__image pzbf-card_image--complements" src="https://media.istockphoto.com/photos/delicious-homemade-hamburger-and-french-fries-picture-id1254672762?b=1&k=20&m=1254672762&s=170667a&w=0&h=nKrG40G2jj9O8wzJ8wDD2zmUKNp00mcdVWK_f_zixug=" alt="Avatar">
-            <div class="pzbf-card__container pzbf-card__container--complements">
-                <p class="pzbf-card__container__title pzbf-card_container_title--complements">Beer Light</p>
-                <h4 class="pzbf-card__container__separator pzbf-card__container__separator--complements"><span>Pick Size</span></h4>
-                <div class="pzbf-card__container__options pzbf-card__container__options--complements">
-                    <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements"><input type="radio" name="complements" class="pzbf-card__container__options__input"/><span class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements">300</span><span class="pzbf-card__container__options__metric pzbf-card__container__options__metric--complements">ml</span>99.99 €</label>
-                    <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements"><input type="radio" name="complements" class="pzbf-card__container__options__input"/><span class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements">500</span><span class="pzbf-card__container__options__metric pzbf-card__container__options__metric--complements">ml</span>99.99 €</label>
-                </div>
-                <button class="pzbf-card__container__button pzbf-card__container__button--complements"><i class="pzbf-card__container__icon pzbf-card__container__icon--complements"></i>Add to Order</button>
+                <button class="pzbf-card__container__button pzbf-card__container__button--complements"><i class="fas fa-shopping-bag pzbf-card__container__icon pzbf-card__container__icon--complements"></i>Add to Order</button>
+
             </div>
         </div>
 
     </div>
-    <button class="glider-prev">&laquo;</button>
-    <button class="glider-next">&raquo;</button>
-    <div id="dots"></div>
+
 </div>
 
+
+</div>

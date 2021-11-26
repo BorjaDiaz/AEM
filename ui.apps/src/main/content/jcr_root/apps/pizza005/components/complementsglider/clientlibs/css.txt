@@ -1,4 +1,3 @@
 #base=css
 
-complementsglider.less
-glider.css
+complementsSlider.less

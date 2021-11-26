@@ -66,6 +66,14 @@ public class SliderCard {
                     loggerCard.info(str.toString());
                     str.setLength(0);
                     componentInfo.setTitle(page.getContentResource("root").getChild("title").getPath());
+                    componentInfo.setImageRoute(page.getContentResource("root").getChild("image").getPath());
+                    componentInfo.setDescription(page.getContentResource("root").getChild("text").getPath());
+                    componentInfo.setOrderText(page.getContentResource("root").getChild("text_726754299").getPath());
+                    componentInfo.setTamanio1(page.getContentResource("root").getChild("text_1280387070").getPath());
+                    componentInfo.setPrice1(page.getContentResource("root").getChild("text_536436341").getPath());
+                    componentInfo.setTamanio2(page.getContentResource("root").getChild("text_1310728108").getPath());
+                    componentInfo.setPrice2(page.getContentResource("root").getChild("text_1423635834").getPath());
+
 
                     componentsInfo.add(componentInfo);
 
