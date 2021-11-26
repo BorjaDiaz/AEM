@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-24T12:23:14.358Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/pizza005/settings/wcm/templates/page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Homepage"
+        jcr:uuid="146389c8-0ec3-4b7f-bb5c-19e7ade6de5f"
+        sling:resourceType="pizza005/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/container"
+                layout="responsiveGrid"/>
+            <experiencefragment
+                cq:styleIds="[1637755439983]"
+                jcr:lastModified="{Date}2021-11-24T12:05:28.429Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/pizza005/us/en/site/header/master"/>
+        </root>
+    </jcr:content>
+    <about/>
+    <news/>
+    <contact/>
+    <products/>
+</jcr:root>
