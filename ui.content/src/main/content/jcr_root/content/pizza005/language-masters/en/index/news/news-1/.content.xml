@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-24T15:15:00.093Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/pizza005/settings/wcm/templates/news-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News 1"
+        jcr:uuid="2e3b29a2-b507-476a-b045-4216a3f6173d"
+        sling:resourceType="pizza005/components/page"
+        linkAsset="/content/dam/pizza005/icons/fries_icon.png">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <text
+                jcr:created="{Date}2021-11-24T14:35:46.541Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:14:49.326Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Pizzeta&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <title
+                jcr:created="{Date}2021-11-24T14:35:42.324Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:14:43.881Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Quattro Formaggi"
+                sling:resourceType="pizza005/components/title"
+                type="h2"/>
+            <image
+                jcr:created="{Date}2021-11-24T14:35:37.809Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:13:45.848Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                altValueFromDAM="false"
+                displayPopupTitle="false"
+                fileReference="/content/dam/pizza005/quattro-formiaggi.jpg"
+                isDecorative="false"
+                titleValueFromDAM="false"/>
+            <text_extra
+                jcr:lastModified="{Date}2021-11-24T15:15:00.090Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Hot &amp;amp; Spicy&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>
