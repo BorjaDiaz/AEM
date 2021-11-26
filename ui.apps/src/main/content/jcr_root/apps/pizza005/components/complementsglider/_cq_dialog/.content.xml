@@ -18,7 +18,7 @@
                             sling:resourceType="cq/gui/components/coral/common/form/pagefield"
                             fieldDescription="Route of the products"
                             fieldLabel="Products route"
-                            rootPath="/content/pizza005/language-masters/index/products"
+                            rootPath="/content/pizza005/language-masters"
                             name="./productsRoute"
                             value="${not empty cqDesign.navigationRoot ? cqDesign.navigationRoot : ''}"
                             required="{Boolean}true"/>
