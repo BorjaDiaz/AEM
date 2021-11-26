@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-24T12:24:55.673Z"
+        cq:lastModified="{Date}2021-11-26T10:39:08.194Z"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/pizza005/settings/wcm/templates/xf-web-variation"
@@ -12,37 +12,45 @@
         jcr:title="Header"
         sling:resourceType="pizza005/components/xfpage">
         <root
-            cq:styleIds="[1637751978070]"
+            cq:styleIds="[1637917773138]"
             jcr:lastModified="{Date}2021-11-24T10:42:08.360Z"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="pizza005/components/container"
             layout="responsiveGrid">
             <container
-                cq:styleIds="[1637752832110]"
                 jcr:created="{Date}2021-11-24T11:21:22.461Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-24T11:21:49.138Z"
+                jcr:lastModified="{Date}2021-11-26T09:46:20.392Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/container"
+                id="header_back"
                 layout="responsiveGrid">
                 <image
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-24T11:04:19.509Z"
+                    jcr:lastModified="{Date}2021-11-26T08:20:48.043Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/image"
-                    fileReference="/content/dam/pizza005/images/pizzabay_logo.png">
+                    altValueFromDAM="false"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/pizza005/pizzabay_logo.png"
+                    isDecorative="false"
+                    titleValueFromDAM="false">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="2"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="5"/>
                     </cq:responsive>
                 </image>
                 <nav_bay
-                    cq:styleIds="[1637754392660]"
+                    cq:styleIds="[1637922461790]"
                     jcr:created="{Date}2021-11-24T10:54:48.508Z"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2021-11-24T12:14:18.374Z"
@@ -55,6 +63,10 @@
                             behavior="none"
                             offset="0"
                             width="8"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="5"/>
                     </cq:responsive>
                     <links jcr:primaryType="nt:unstructured">
                         <item0
@@ -87,6 +99,9 @@
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="2"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            behavior="hide"/>
                     </cq:responsive>
                 </phonenumber>
             </container>
