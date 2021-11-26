@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-22T15:48:09.578Z"
+        cq:lastModified="{Date}2021-11-26T08:45:59.873Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         jcr:primaryType="cq:PageContent"
@@ -15,9 +15,10 @@
             <title
                 jcr:created="{Date}2021-11-22T13:05:30.285Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-22T13:08:06.344Z"
+                jcr:lastModified="{Date}2021-11-26T08:45:59.871Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
+                jcr:title="Green salad"
                 sling:resourceType="pizza005/components/title"/>
             <text_1423635834
                 jcr:created="{Date}2021-11-22T13:08:34.188Z"
