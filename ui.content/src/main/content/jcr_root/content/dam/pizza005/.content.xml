@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
-    jcr:mixinTypes="[rep:AccessControllable]"
+
     jcr:primaryType="sling:OrderedFolder">
     <asset.jpg/>
-    <jcr:content
-        cq:conf="/conf/pizza005"
-        jcr:primaryType="nt:unstructured"
-        jcr:title="PizzabayAgents005">
-        <folderThumbnail/>
-    </jcr:content>
-    <meat.jpg/>
-    <quattro-formiaggi.jpg/>
-    <supreme.jpg/>
-    <veggie.jpg/>
-    <bb-chicken.jpg/>
-    <free-delivery.jpg/>
-    <fries.jpg/>
-    <ice-coffee.jpg/>
-    <big_x0020_burger.jpg/>
-    <vege_x0020_burger.jpg/>
-    <cheesy_x0020_burger.jpg/>
-    <salad1.jpg/>
-    <red_x0020_salad.jpg/>
-    <mized_x0020_salad.jpg/>
-    <chicken_x0020_taco.jpg/>
-    <steak_x0020_taco.jpg/>
-    <vege_x0020_taco.jpg/>
-    <italy_x0020_wraps.jpg/>
-    <chicken_x0020_wraps.jpg/>
-    <salad_x0020_wraps.jpg/>
-    <Gajo_x0020_fries.jpg/>
-    <Italy_x0020_fries.jpg/>
-    <spicy_x0020_fries.jpg/>
-    <water_x0020_bottle.jpg/>
-    <beer_x0020_light.jpg/>
-    <cola.jpg/>
-    <icons/>
-    <pizzabay_logo.png/>
+
 </jcr:root>
