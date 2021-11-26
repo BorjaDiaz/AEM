@@ -389,7 +389,7 @@
                 </policy_header>
                 <policy_footer
                     jcr:description="Sets a &lt;footer> element on the page footer experience fragment."
-                    jcr:lastModified="{Date}2021-11-24T01:10:37.504Z"
+                    jcr:lastModified="{Date}2021-11-26T12:07:01.187+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Footer"

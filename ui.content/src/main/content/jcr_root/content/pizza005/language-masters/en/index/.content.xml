@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-24T12:23:14.358Z"
+        cq:lastModified="{Date}2021-11-26T12:25:04.215+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -18,7 +18,140 @@
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/container"
-                layout="responsiveGrid"/>
+                layout="responsiveGrid">
+                <carousel_bay
+                    jcr:created="{Date}2021-11-26T12:22:25.218+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-26T12:22:25.218+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/carousel-bay">
+                    <teaser_bay
+                        jcr:created="{Date}2021-11-26T12:22:31.147+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-26T12:22:37.152+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/teaser-bay"
+                        fileReference="/content/dam/pizza005/bb-chicken.jpg"
+                        islimited="false"
+                        textIsRich="true"/>
+                </carousel_bay>
+                <container
+                    jcr:created="{Date}2021-11-26T12:12:22.138+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-26T12:14:00.074+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/container"
+                    layout="responsiveGrid">
+                    <news
+                        jcr:created="{Date}2021-11-26T12:12:41.347+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-26T12:15:04.777+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/news"
+                        desing="1"
+                        route="/content/pizza005/language-masters/en/index/products/pizza/buitoni">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="7"/>
+                        </cq:responsive>
+                    </news>
+                    <news_424872794
+                        jcr:created="{Date}2021-11-26T12:14:20.050+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-26T12:19:39.099+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/news"
+                        desing="3"
+                        route="/content/pizza005/language-masters/en/index/products/pizza/buitoni">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </news_424872794>
+                    <news_424872794_copy
+                        jcr:created="{Date}2021-11-26T12:14:20.050+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-26T12:19:42.339+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/news"
+                        desing="3"
+                        route="/content/pizza005/language-masters/en/index/products/pizza/buitoni">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </news_424872794_copy>
+                    <news_424872794_copy_865658296
+                        jcr:created="{Date}2021-11-26T12:14:20.050+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-11-26T12:19:16.881+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/news"
+                        desing="3"
+                        route="/content/pizza005/language-masters/en/index/products/pizza/buitoni">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="none"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </news_424872794_copy_865658296>
+                </container>
+                <tabs
+                    jcr:created="{Date}2021-11-26T12:23:04.380+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-26T12:23:37.583+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/tabs">
+                    <item_1
+                        cq:panelTitle="Wraps"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tab 1"
+                        sling:resourceType="pizza005/components/container"
+                        layout="responsiveGrid"/>
+                    <item_2
+                        cq:panelTitle="Pizza Sets"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tab 2"
+                        sling:resourceType="pizza005/components/container"
+                        layout="responsiveGrid"/>
+                    <item_1637925811835
+                        cq:panelTitle="Burger"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/container"/>
+                </tabs>
+                <tabs_1812441546
+                    jcr:created="{Date}2021-11-26T12:23:07.796+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-26T12:23:52.894+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/tabs">
+                    <item_1
+                        cq:panelTitle="Goes Great With"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Tab 1"
+                        sling:resourceType="pizza005/components/container"
+                        layout="responsiveGrid"/>
+                </tabs_1812441546>
+            </container>
             <experiencefragment
                 cq:styleIds="[1637755439983]"
                 jcr:lastModified="{Date}2021-11-24T12:05:28.429Z"
