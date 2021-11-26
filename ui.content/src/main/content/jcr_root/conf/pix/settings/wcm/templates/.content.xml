@@ -5,7 +5,6 @@
     <spa-next-remote-page/>
     <spa-remote-page/>
     <xf-web-variation/>
-    <rep:policy/>
     <pixie-template/>
     <pixie-template-dynamic/>
     <test/>

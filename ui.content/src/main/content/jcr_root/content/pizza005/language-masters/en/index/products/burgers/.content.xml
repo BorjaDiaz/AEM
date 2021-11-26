@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-23T13:13:00.373Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/pizza005/settings/wcm/templates/page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Burgers"
+        jcr:uuid="65d76d68-dc5c-4ef4-9262-e050df221fc5"
+        sling:resourceType="pizza005/components/page"
+        linkAsset="/content/dam/pizza005/icons/burger_icon.png">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/container"
+                layout="responsiveGrid"/>
+        </root>
+    </jcr:content>
+    <big-pizzabay/>
+    <vege-burger/>
+    <cheesy-burger/>
+</jcr:root>
