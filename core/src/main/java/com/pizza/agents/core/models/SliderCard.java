@@ -21,13 +21,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
-import java.util.Optional;
-
+//import java.util.Optional;
+import org.apache.sling.models.annotations.Optional;
 
 @Model(adaptables = Resource.class)
 public class SliderCard {
 
-    @ValueMapValue(name=PROPERTY_RESOURCE_TYPE, injectionStrategy=InjectionStrategy.OPTIONAL)
+    @ValueMapValue(name=PROPERTY_RESOURCE_TYPE,  injectionStrategy=InjectionStrategy.OPTIONAL)
     @Default(values="No resourceType")
     protected String resourceType;
 
@@ -46,7 +46,7 @@ public class SliderCard {
     private SliderCardInfo componentInfo=new SliderCardInfo();
 
 
-    @Inject
+    @Inject @Optional
     private String productsRoute;
 
 
@@ -54,12 +54,12 @@ public class SliderCard {
     protected void init() {
 
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
-
+        try {
         for (Resource rsc : resourceResolver.getResource(productsRoute).getChildren())    {
             if(!rsc.getName().equals("jcr:content")){
                 StringBuilder str = new StringBuilder();
                 page = pageManager.getContainingPage(rsc);
-                try {
+
                     componentInfo=new SliderCardInfo();
 
                     str.append("OBTAINING DATA FROM: ").append(rsc.getName()).append(" en ").append(rsc.getPath());
@@ -77,16 +77,16 @@ public class SliderCard {
 
                     componentsInfo.add(componentInfo);
 
-                }catch(Exception e){
-                    e.printStackTrace();
-                    str.append("an error accesing child nodes has ocurred:\n");
-                }
+
 
             }
 
 
         }
+        }catch(Exception e){
 
+
+        }
     }
 
 
