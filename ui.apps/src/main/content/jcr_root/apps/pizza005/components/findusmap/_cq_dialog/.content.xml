@@ -9,17 +9,19 @@
         sling:resourceType="granite/ui/components/coral/foundation/container">
         <items jcr:primaryType="nt:unstructured">
             <column
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                    <text jcr:primaryType="nt:unstructured"
-                          sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                          fieldLabel="Text"
-                          name="./text"/>
-                    <map jcr:primaryType="nt:unstructured"
-                          sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                          fieldLabel="Url google maps location"
-                          name="./map"/>
+                    <text
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Text"
+                        name="./text"/>
+                    <map
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Url google maps location"
+                        name="./map"/>
                 </items>
             </column>
         </items>
