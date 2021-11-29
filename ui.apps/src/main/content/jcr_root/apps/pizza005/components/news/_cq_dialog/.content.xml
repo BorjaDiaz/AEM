@@ -19,14 +19,14 @@
                         name="./route"
                         nodeTypes="cq:Page"
                         required="{Boolean}false"
-                        validation="news-path"
-                        rootPath="/content/pizza005/language-masters/index/news"/>
+                        rootPath="/content/pizza005/language-masters/index/news"
+                        validation="news-path"/>
                     <desing
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
-                        name="./desing"
                         fieldDescription="Choose the desing for the news to display"
                         fieldLabel="Choose a design"
+                        name="./desing"
                         vertical="{Boolean}true">
                         <items jcr:primaryType="nt:unstructured">
                             <desing_1
