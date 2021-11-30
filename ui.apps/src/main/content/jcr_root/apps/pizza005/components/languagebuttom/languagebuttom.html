@@ -1,11 +1,16 @@
-<nav id="menu" data-sly-use.model="${'com.pizza.agents.core.models.LanguageButtomModel' @ text='Somre Text'}">
+<div class="pzbf-languagebuttom"
+     data-sly-use.model="com.pizza.agents.core.models.LanguageButtomModel"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html">
     <ul>
-        <li><a class="pzbf-languagebuttom"href="#">${currentPage.properties.jcr:language}</a>
-            <ul  data-sly-list.url="${model.paths}">
+        <li class="pzbf-languagebuttom__list">
+            <a class="pzbf-languagebuttom__language" data-sly-test="${!currentPage.properties.jcr:language}">Language</a>
+            <a class="pzbf-languagebuttom__language" data-sly-test="${currentPage.properties.jcr:language}">${currentPage.properties.jcr:language}</a>
+            <ul class="pzbf-languagebuttom__ul" data-sly-list.url="${model.paths}">
                 <li>
-                    <a href="${url.path}.html">${url.properties.jcr:language}</a>
+                    <a class="pzbf-languagebuttom__item" href="${url.path}.html">${url.properties.jcr:language}</a>
                 </li>
             </ul>
         </li>
     </ul>
-</nav>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!properties.navigationRoot}"></sly>
