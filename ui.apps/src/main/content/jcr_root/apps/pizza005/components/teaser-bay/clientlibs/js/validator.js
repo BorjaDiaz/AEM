@@ -27,8 +27,14 @@
                     let $field = $rteField.closest('.richtext-container').find('input.coral-Form-field');
                     let maxLength = $field.data('maxlength');
                     let textLength = $rteField.text().trim().length;
+                    let $fieldRichtext = $rteField.closest('.richtext-container').find('.cq-RichText-editable.is-edited');
                     if (maxLength && textLength > maxLength) {
+                        $fieldRichtext.addClass('richtext-border-error__red');
                         return Granite.I18n.get(CONST.ERROR_MESSAGE, [textLength, maxLength]);
+                    }else{
+                        if($fieldRichtext.hasClass('richtext-border-error__red')){
+                            $fieldRichtext.removeClass('richtext-border-error__red');
+                        }
                     }
                     return null;
                 }
