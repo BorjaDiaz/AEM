@@ -32,15 +32,15 @@
                             <desing_1
                                 jcr:primaryType="nt:unstructured"
                                 checked="{Boolean}true"
-                                text="Desing 1"
+                                text="Align text left - image squared - red badge"
                                 value="1"/>
                             <desing_2
                                 jcr:primaryType="nt:unstructured"
-                                text="Desing 2"
+                                text="Align text center - image squared"
                                 value="2"/>
                             <desing_3
                                 jcr:primaryType="nt:unstructured"
-                                text="Desing 3"
+                                text="Align text center - image rectangular"
                                 value="3"/>
                         </items>
                     </desing>
