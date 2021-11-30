@@ -11,15 +11,30 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-            <email
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                fieldLabel="Email"
-                fieldDescription="Enter the email you want to recive contact form´s emails."  
-                emptyText="example@example.com"
-                value="pizzabay.005@gmail.com"
-                name="./email"
-                required="{Boolean}true"/>
+                
+           <restaurant
+  jcr:primaryType="nt:unstructured"
+  sling:resourceType="granite/ui/components/coral/foundation/form/select"
+  fieldLabel="Select restaurant"
+  name="./select"
+  value="abades">
+  <items jcr:primaryType="nt:unstructured">
+      <abades
+          jcr:primaryType="nt:unstructured"
+          text="Abades restaurant"
+          value="abades"
+          selected="{Boolean}true"/>
+      <sc
+          jcr:primaryType="nt:unstructured"
+          text="Santa Cruz restaurant"
+          value="sc"/>
+      <narnia
+          jcr:primaryType="nt:unstructured"
+          text="Narnia restaurant"
+          value="narnia"/>
+  </items>
+</restaurant>
+
 </items>
                 </column>
         </items>

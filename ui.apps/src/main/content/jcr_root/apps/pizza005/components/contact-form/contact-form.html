@@ -6,7 +6,7 @@
 
         <input required type="text" name="contact_subject" id="contact_subject" placeholder="Subject....">
         
-        <textarea required name="contact_message" id="contact_message" cols="30" rows="10" placeholder="Your message..."></textarea>
+        <textarea required name="contact_message" id="contact_message" cols="30" rows="19" placeholder="Your message..."></textarea>
 
         <div class="contact_btns">
             <button id="contact_send" type="submit">Send message</button>
@@ -14,6 +14,7 @@
         </div>
 
         <input type="hidden" name="path" id="path">
+        <input type="hidden" name="gestor" id="gestor" value="${properties.email}">
 
     </form>
 

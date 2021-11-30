@@ -1,0 +1,7 @@
+
+<div data-sly-use.template="core/wcm/components/commons/v1/templates.html" data-sly-test.hasContent="${properties.select}">
+    <iframe class="mapIframe" data-sly-test="${properties.select == 'abades'}" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d879.5384968524712!2d-16.4411457!3d28.1418001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc402523f886f663%3A0xd55eaa36db69e524!2sEl%20pollo%20de%20Abades!5e0!3m2!1ses!2ses!4v1638200480192!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe class="mapIframe" data-sly-test="${properties.select == 'sc'}" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14029.756271749517!2d-16.270231809037444!3d28.466321015877373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cdca8c015069%3A0xdbab6a64999fb370!2sPizzer%C3%ADa%20Manamm%C3%A9%20Santa%20Cruz!5e0!3m2!1ses!2ses!4v1638270944610!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe class="mapIframe" data-sly-test="${properties.select == 'narnia'}" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23524.886445562963!2d12.512279904202595!3d42.52107811727147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ee17a098238d3%3A0x24f10a07c2e03706!2sHotel%20Narnia!5e0!3m2!1ses!2ses!4v1638271018339!5m2!1ses!2ses"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<sly data-sly-call="${template.placeholder @ isEmpty=!hasContent}"></sly>
