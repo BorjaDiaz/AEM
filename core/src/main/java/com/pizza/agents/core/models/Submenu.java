@@ -33,7 +33,7 @@ public class Submenu {
     private ResourceResolver resourceResolver;
 
     @PostConstruct
-    protected void test() {
+    protected void init() {
         try {
             PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 
