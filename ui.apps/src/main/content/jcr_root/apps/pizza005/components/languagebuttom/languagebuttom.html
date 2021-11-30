@@ -1,8 +1,10 @@
 <nav id="menu" data-sly-use.model="${'com.pizza.agents.core.models.LanguageButtomModel' @ text='Somre Text'}">
     <ul>
-        <li><a href="#">${model.path}</a>
-            <ul>
-                <li><a href="${model.path}.html">${model.langChild}</a></li>
+        <li><a class="pzbf-languagebuttom"href="#">${currentPage.properties.jcr:language}</a>
+            <ul  data-sly-list.url="${model.paths}">
+                <li>
+                    <a href="${url.path}.html">${url.properties.jcr:language}</a>
+                </li>
             </ul>
         </li>
     </ul>
