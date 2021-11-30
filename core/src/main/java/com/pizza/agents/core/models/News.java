@@ -2,7 +2,6 @@ package com.pizza.agents.core.models;
 
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-import com.pizza.agents.core.utils.PageManagerUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
@@ -30,7 +29,7 @@ public class News {
     private ResourceResolver resourceResolver;
 
     @PostConstruct
-    protected void test() {
+    protected void init() {
         try {
             PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
             if (pageManager != null){

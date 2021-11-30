@@ -19,3 +19,4 @@
 general.less
 header.less
 ../resources/glider/css/glider.min.css
+easy-paginate.less

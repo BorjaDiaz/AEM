@@ -2,13 +2,32 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+    &__item:nth-child(even) > &__item-wrapper{
+        flex-direction: row-reverse;
+        background-color: #f7f7f7;
+    }
     &__item{
-        &__wrapper{
+        &-wrapper{
             display: flex;
+            & .cmp-image .cmp-image__image{
+                height: 100%;
+                object-fit: cover;
+                max-height: 700px;
+            }
         }
         &-text-container{
             width: 100%;
-            margin-left: 20px;
+            padding: 1em 3em;
+            & .cmp-title{text-align: center;}
+            & .cmp-title > *{
+                margin-top:0;
+                color:#e89e00;
+                font-size:3rem;
+            }
         }
     }
 }

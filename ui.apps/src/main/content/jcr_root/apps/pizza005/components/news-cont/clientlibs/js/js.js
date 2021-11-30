@@ -1,4 +1,4 @@
 $('#news-paginate').easyPaginate({
-    elementsPerPage: 1,
+    elementsPerPage: 2,
     effect: 'climb'
 });

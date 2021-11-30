@@ -57,9 +57,9 @@
 
                 htmlNav += '</div>';
                 plugin.nav = $(htmlNav);
-                plugin.nav.css({
-                    'width': plugin.el.width()
-                });
+                // plugin.nav.css({
+                //     'width': plugin.el.width()
+                // });
                 plugin.el.after(plugin.nav);
 
                 var elSelector = '#' + plugin.el.get(0).id + ' + ';
