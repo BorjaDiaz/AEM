@@ -24,9 +24,9 @@
                     <desing
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                        name="./desing"
                         fieldDescription="Choose the desing for the news to display"
                         fieldLabel="Choose a design"
-                        name="./desing"
                         vertical="{Boolean}true">
                         <items jcr:primaryType="nt:unstructured">
                             <desing_1
