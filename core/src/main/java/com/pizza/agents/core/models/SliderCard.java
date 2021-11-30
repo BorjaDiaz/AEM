@@ -54,6 +54,7 @@ public class SliderCard {
     protected void init() {
 
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+        //SliderCardInfo miSci= pageManager.getContainingPage(currentResource).adaptTo(SliderCardInfo.class);
         try {
         for (Resource rsc : resourceResolver.getResource(productsRoute).getChildren())    {
             if(!rsc.getName().equals("jcr:content")){

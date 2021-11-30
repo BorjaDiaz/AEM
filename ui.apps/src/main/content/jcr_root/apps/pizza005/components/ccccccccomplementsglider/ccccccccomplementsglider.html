@@ -1,0 +1,21 @@
+
+
+
+<div   data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+       data-sly-use.model="com.pizza.agents.core.models.ProductsManager"
+       data-sly-test.hasContent="${model.pathList}">
+
+
+
+    <div class=""  alt="Avatar" data-sly-resource="${model.pathList}"></div>
+
+
+
+
+
+
+
+</div>
+
+
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
