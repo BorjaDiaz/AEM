@@ -19,7 +19,7 @@
                         name="./route"
                         nodeTypes="cq:Page"
                         required="{Boolean}false"
-                        rootPath="/content/pizza005/language-masters/index/news"
+                        rootPath="/content/pizza005"
                         validation="news-path"/>
                     <desing
                         jcr:primaryType="nt:unstructured"
