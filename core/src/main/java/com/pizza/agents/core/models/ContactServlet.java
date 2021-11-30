@@ -32,13 +32,14 @@ public class ContactServlet extends SlingAllMethodsServlet {
     protected void doPost(SlingHttpServletRequest req, SlingHttpServletResponse res) throws IOException {
 
         String path = req.getRequestParameter("path").getString();
+        String gestor = req.getRequestParameter("gestor").getString();
 
         String client = req.getRequestParameter("contact_email").getString();
         String subject = req.getRequestParameter("contact_subject").getString();
         String body = req.getRequestParameter("contact_message").getString();
 
 
-        Boolean emailCheck =  Email.sendEmail(client, subject, body);
+        Boolean emailCheck =  Email.sendEmail(gestor ,client, subject, body);
 
         if (emailCheck){
             res.sendRedirect(path + "?emailSend=success");

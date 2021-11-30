@@ -13,7 +13,7 @@ import java.util.Properties;
 public class Email {
     private static final Logger log = LoggerFactory.getLogger(Email.class);
 
-    public static Boolean sendEmail(String client, String subject, String body){
+    public static Boolean sendEmail(String gestor, String client, String subject, String body){
 
 
         //Setting the properties
@@ -36,7 +36,7 @@ public class Email {
 
         try {
             message.setFrom(new InternetAddress("pizzabay.005@gmail.com"));
-            message.addRecipient(Message.RecipientType.TO, new InternetAddress("pizzabay.005@gmail.com"));
+            message.addRecipient(Message.RecipientType.TO, new InternetAddress(gestor));
             message.setSubject("Subject: "+ subject + "  ----->   Client`s contact email:  " + client);
             message.setText(body);
 
