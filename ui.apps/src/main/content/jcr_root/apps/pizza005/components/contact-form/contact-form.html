@@ -1,0 +1,28 @@
+<div class="contactForm">
+
+    <form action="/bin/servlet/contact" id="emailForm" method="post">
+
+        <input required type="email" name="contact_email" id="contact_email" placeholder="Your email...">
+
+        <input required type="text" name="contact_subject" id="contact_subject" placeholder="Subject....">
+        
+        <textarea required name="contact_message" id="contact_message" cols="30" rows="19" placeholder="Your message..."></textarea>
+
+        <div class="contact_btns">
+            <button id="contact_send" type="submit">Send message</button>
+            <button id="contact_reset" type="reset">Cancel</button>
+        </div>
+
+        <input type="hidden" name="path" id="path">
+        <input type="hidden" name="gestor" id="gestor" value="${properties.email}">
+
+    </form>
+
+    <div id="email_modal" class="hiddenModal">
+        <div class="modal_card">
+            <p id="modal_text"></p>
+            <button id="modal_button">OK</button>
+        </div>
+    </div>
+
+</div>
