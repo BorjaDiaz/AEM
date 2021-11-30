@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-26T13:41:59.645Z"
+        cq:lastModified="{Date}2021-11-26T15:25:07.812Z"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/pizza005/settings/wcm/templates/xf-web-variation"
@@ -66,7 +66,7 @@
                             jcr:primaryType="nt:unstructured"
                             behavior="none"
                             offset="0"
-                            width="8"/>
+                            width="6"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"

@@ -2,8 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-26T11:17:35.919Z"
-        cq:lastModifiedBy="reference-adjustment-service"
+        cq:lastModified="{Date}2021-11-29T13:10:54.417Z"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
@@ -19,14 +19,88 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/container"
                 layout="responsiveGrid">
-                <submenu_bay
-                    jcr:created="{Date}2021-11-23T11:51:52.970Z"
+                <title
+                    jcr:created="{Date}2021-11-29T09:55:07.960Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-23T11:59:34.952Z"
+                    jcr:lastModified="{Date}2021-11-29T09:57:13.721Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="pizza005/components/submenu-bay"
-                    linkURL="/content/pizza005/language-masters/en/index/products"/>
+                    sling:resourceType="pizza005/components/title"
+                    id="abouttitle"
+                    type="h1"/>
+                <image
+                    jcr:created="{Date}2021-11-29T09:39:18.646Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-29T09:56:20.313Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/image"
+                    alt="aboutimage"
+                    altValueFromDAM="false"
+                    displayPopupTitle="false"
+                    fileReference="/content/dam/pizza005/pizzaman.jpg"
+                    id="aboutimage"
+                    isDecorative="false"
+                    titleValueFromDAM="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </image>
+                <text
+                    jcr:created="{Date}2021-11-29T09:43:04.174Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-29T10:57:39.681Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/text"
+                    id="abouttext"
+                    text="&lt;p>The&amp;nbsp;owners are&amp;nbsp;real genuine people who&amp;nbsp;believe in&amp;nbsp;quality and&amp;nbsp;service. Stop in, try&amp;nbsp;some of&amp;nbsp;the menu items and&amp;nbsp;don't forget to&amp;nbsp;give feedback! Their goal is&amp;nbsp;to provide their customers with unsurpassed service, fresh quality ingredients, and&amp;nbsp;incredible homemade menu items.&amp;nbsp;Not&amp;nbsp;to mention the&amp;nbsp;best pizza in&amp;nbsp;town! Our&amp;nbsp;personal favorites: Switch-it&amp;nbsp;Pizza, Mac&amp;nbsp;&amp;amp; Cheese Balls, Chicken Fingers and&amp;nbsp;any of&amp;nbsp;their incredible salads! Visit PizzaBay soon and&amp;nbsp;experience what we&amp;nbsp;know will be&amp;nbsp;friendly sincere service and&amp;nbsp;great food!&amp;nbsp;&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+                <social
+                    jcr:created="{Date}2021-11-29T09:44:47.159Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-29T10:30:03.787Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/social"
+                    fb="true"
+                    id="social1"
+                    ins="true"
+                    li="false"
+                    mail="false"
+                    rs="false"
+                    text="Find us on:"
+                    tw="true"
+                    yt="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </social>
             </container>
         </root>
     </jcr:content>
