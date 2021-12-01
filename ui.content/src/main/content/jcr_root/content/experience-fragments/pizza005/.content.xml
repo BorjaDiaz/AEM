@@ -6,5 +6,5 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="PizzabayAgents005 Fragments"
     sling:configRef="/conf/pizza005">
-    <language-masters/>
+    <us/>
 </jcr:root>
