@@ -2,14 +2,21 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T10:14:23.694Z"
+        cq:lastModified="{Date}2021-12-01T12:08:40.798+01:00"
         cq:lastModifiedBy="admin"
-        cq:tags="[]"
+        cq:lastTranslationDone="{Date}2021-12-01T10:03:50.953+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-01T10:03:23.048+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/xf-web-variation"
-        cq:xfMasterVariation="{Boolean}true"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProject="[/content/projects/pizzabay_languagetranslationxf/pizzabay_language_translation_xf]"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/experience-fragments/pizza005/us/en/site/header/master"
+        cq:translationStatus="APPROVED"
         cq:xfVariantType="web"
+        jcr:language="es"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Header"
+        jcr:title="Encabezado"
         sling:resourceType="pizza005/components/xfpage">
         <root
             cq:styleIds="[1637917773138]"
@@ -35,7 +42,7 @@
                     sling:resourceType="pizza005/components/image"
                     altValueFromDAM="false"
                     displayPopupTitle="false"
-                    fileReference="/content/dam/pizza005/pizzabay_logo.png"
+                    fileReference="/content/dam/pizza005/es/pizzabay_logo.png"
                     isDecorative="false"
                     titleValueFromDAM="false">
                     <cq:responsive jcr:primaryType="nt:unstructured">
@@ -57,7 +64,7 @@
                     cq:styleIds="[1637922461790]"
                     jcr:created="{Date}2021-11-24T10:54:48.508Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-12-01T10:14:23.559Z"
+                    jcr:lastModified="{Date}2021-12-01T12:08:40.772+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/nav-bay">
@@ -79,26 +86,26 @@
                     <links jcr:primaryType="nt:unstructured">
                         <item0
                             jcr:primaryType="nt:unstructured"
-                            linkURL="/content/pizza005/language-masters/en/index"
-                            text="Order online"/>
+                            linkURL="/content/pizza005/language-masters/es/index"
+                            text="Ordene en línea"/>
                         <item1
                             jcr:primaryType="nt:unstructured"
-                            linkURL="/content/pizza005/language-masters/en/index/about"
-                            text="About"/>
+                            linkURL="/content/pizza005/language-masters/es/index/about"
+                            text="Acerca de"/>
                         <item2
                             jcr:primaryType="nt:unstructured"
-                            linkURL="/content/pizza005/language-masters/en/index/news"
-                            text="News"/>
+                            linkURL="/content/pizza005/language-masters/es/index/news"
+                            text="Noticia"/>
                         <item3
                             jcr:primaryType="nt:unstructured"
-                            linkURL="/content/pizza005/language-masters/en/index/contact"
-                            text="Store Locator"/>
+                            linkURL="/content/pizza005/language-masters/es/index/contact"
+                            text="Localizador de tiendas"/>
                     </links>
                 </nav_bay>
                 <languagebuttom
                     jcr:created="{Date}2021-11-30T14:06:27.875+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-30T14:12:26.700+01:00"
+                    jcr:lastModified="{Date}2021-12-01T09:14:54.454+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/languagebuttom"
@@ -134,11 +141,12 @@
             <submenu_bay
                 jcr:created="{Date}2021-11-24T10:41:26.953Z"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-11-26T11:55:31.097Z"
+                jcr:lastModified="{Date}2021-12-01T10:41:32.248+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/submenu-bay"
-                linkURL="/content/pizza005/language-masters/en/index/products"/>
+                linkURL="/content/pizza005/language-masters/es/index/products"/>
         </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
