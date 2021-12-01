@@ -2,7 +2,7 @@
      data-sly-use.model="com.pizza.agents.core.models.LanguageButtomModel"
      data-sly-use.template="core/wcm/components/commons/v1/templates.html">
     <ul>
-        <li class="pzbf-languagebuttom__list">
+        <li class="pzbf-languagebuttom__list pzbf-languagebuttom__list__current">
             <a class="pzbf-languagebuttom__language" data-sly-test="${!currentPage.properties.jcr:language}">Language</a>
             <a class="pzbf-languagebuttom__language" data-sly-test="${currentPage.properties.jcr:language}">${currentPage.properties.jcr:language}</a>
             <ul class="pzbf-languagebuttom__ul" data-sly-list.url="${model.paths}">
