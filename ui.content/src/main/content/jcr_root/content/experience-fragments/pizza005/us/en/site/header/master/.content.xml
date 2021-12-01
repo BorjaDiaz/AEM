@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-26T15:25:07.812Z"
+        cq:lastModified="{Date}2021-12-01T10:14:23.694Z"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/pizza005/settings/wcm/templates/xf-web-variation"
@@ -57,7 +57,7 @@
                     cq:styleIds="[1637922461790]"
                     jcr:created="{Date}2021-11-24T10:54:48.508Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-26T11:55:08.206Z"
+                    jcr:lastModified="{Date}2021-12-01T10:14:23.559Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/nav-bay">
@@ -66,7 +66,7 @@
                             jcr:primaryType="nt:unstructured"
                             behavior="none"
                             offset="0"
-                            width="6"/>
+                            width="8"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
@@ -91,7 +91,7 @@
                             text="News"/>
                         <item3
                             jcr:primaryType="nt:unstructured"
-                            linkURL="https://www.google.es/maps/place/El+pollo+de+Abades/@28.1418001,-16.4411457,19z/data=!4m5!3m4!1s0xc402523f886f663:0xd55eaa36db69e524!8m2!3d28.1417428!4d-16.4411706?hl=es"
+                            linkURL="/content/pizza005/language-masters/en/index/contact"
                             text="Store Locator"/>
                     </links>
                 </nav_bay>

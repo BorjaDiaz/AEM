@@ -41,6 +41,11 @@ if (noSPaceRes == undefined){
         linkedArrayRes.find(element => element.innerHTML.toLowerCase() == 'order online').classList.toggle('activeLinkRes');
     }
 
+    if (locString.includes("contact.html")){
+        
+        linkedArrayRes.find(element => element.innerHTML.toLowerCase() == 'store locator').classList.toggle('activeLinkRes');
+    }
+
     else {
         linkedArrayRes.forEach(element => {
             if(element.innerHTML.toLowerCase().indexOf(' ') !== -1){

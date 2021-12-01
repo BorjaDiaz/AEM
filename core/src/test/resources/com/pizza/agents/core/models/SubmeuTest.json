@@ -1,0 +1,7 @@
+{
+  "submenu": {
+            "jcr:primaryType" : "nt:unstructured",
+            "sling:resourceType" : "sling:resourceType",
+            "linkURL" : "/content/pizza005/language-masters/en/index/products"
+  }
+}
