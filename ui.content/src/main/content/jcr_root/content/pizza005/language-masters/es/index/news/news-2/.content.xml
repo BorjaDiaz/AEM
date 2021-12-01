@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-01T09:21:02.867+01:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2021-12-01T09:21:02.867+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:48.537+01:00"
+        cq:template="/conf/pizza005/settings/wcm/templates/news-template"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/pizza005/language-masters/en/index/news/news-2"
+        cq:translationStatus="APPROVED"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="es"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Noticias 2"
+        jcr:uuid="28c19f57-8103-4819-8bd8-63b7596da83d"
+        sling:resourceType="pizza005/components/page"
+        linkAsset="/content/dam/pizza005/icons/fries_icon.png">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <text_extra
+                jcr:created="{Date}2021-11-24T14:35:50.589Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T14:36:02.334Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"/>
+            <text
+                jcr:created="{Date}2021-11-24T14:35:46.541Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:16:04.037Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Para pedidos de burguers&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <title
+                jcr:created="{Date}2021-11-24T14:35:42.324Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:15:41.831Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Papas fritas gratis"
+                sling:resourceType="pizza005/components/title"
+                type="h2"/>
+            <image
+                jcr:created="{Date}2021-11-24T14:35:37.809Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:15:33.301Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                altValueFromDAM="false"
+                displayPopupTitle="false"
+                fileReference="/content/dam/pizza005/es/fries.jpg"
+                isDecorative="false"
+                titleValueFromDAM="false"/>
+            <text_desc
+                jcr:lastModified="{Date}2021-11-30T11:45:30.775Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis porttitor pellentesque. Mauris laoreet ligula ut augue consequat ultricies. Nullam ac congue risus, sit amet posuere magna. Clase aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed at elit sed est congue efficitur. Entero sagittis ligula quis congue commodo. Aenean tortor ligula, malesuada sit amet nibh ac, condimentum ultricies diam. Nullam nec mauris lacus. Pellentesque fermentum pellentesque congue. Ut maximus, est ut fermentum hendrerit, sem odio egestas neque, viverra sollicitudin arcu leo vitae erat. Vivamus ipsum nisl, bibendum a fringilla a, cursus eu sapien. Cras scelerisque gravida cursus. In odio eros, euismod ut hendrerit ut, finibus ac nisl. Pellentesque pharetra justo ac enim ultricies ultrices.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

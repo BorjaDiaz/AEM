@@ -37,6 +37,13 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/image"/>
+            <text_desc
+                jcr:created="{Date}2021-11-30T11:37:05.442Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-30T11:40:07.317Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"/>
         </root>
     </jcr:content>
 </jcr:root>

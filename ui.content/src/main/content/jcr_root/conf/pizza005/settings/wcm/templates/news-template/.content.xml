@@ -2,7 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2021-11-24T14:40:41.171Z"
+        cq:lastModified="{Date}2021-11-30T11:37:05.445Z"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/pizza005/settings/wcm/template-types/page"
         jcr:primaryType="cq:PageContent"
