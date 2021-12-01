@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-01T09:21:06.736+01:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2021-12-01T09:21:06.737+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:49.306+01:00"
+        cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/salads/mixed-salad"
+        cq:translationStatus="APPROVED"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Ensalada mixta"
+        jcr:uuid="1c9d01b3-50f0-4cc8-8bf4-3d52911dadd9"
+        sling:resourceType="pizza005/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <title
+                jcr:created="{Date}2021-11-22T13:05:30.285Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-26T08:46:23.431Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Ensalada mixta"
+                sling:resourceType="pizza005/components/title"/>
+            <text_1423635834
+                jcr:created="{Date}2021-11-22T13:08:34.188Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:52:32.431Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>4,99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_1310728108
+                jcr:created="{Date}2021-11-22T13:08:32.124Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:52:26.166Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>1 persona&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_536436341
+                jcr:created="{Date}2021-11-22T13:08:30.069Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:52:20.327Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>8,99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_1280387070
+                jcr:created="{Date}2021-11-22T13:08:23.753Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:52:15.251Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>2 personas&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_726754299
+                jcr:created="{Date}2021-11-22T13:08:21.442Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:52:10.115Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Tamaño de la selección&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text
+                jcr:created="{Date}2021-11-22T13:08:18.976Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:52:06.411Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>&lt;i>¡El clásico! muy poco para explicar lo saludable y de buen sabor que es esta ensalada. ¡Pruébalo tú mismo!&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2021-11-22T13:09:21.176Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:51:12.455Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                fileReference="/content/dam/pizza005/es/mized salad.jpg"/>
+        </root>
+    </jcr:content>
+</jcr:root>
