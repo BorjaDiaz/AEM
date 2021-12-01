@@ -2,7 +2,6 @@ package com.pizza.agents.core.models;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
-import org.apache.sling.api.request.RequestParameter;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.apache.sling.servlets.annotations.SlingServletPaths;
 
@@ -12,6 +11,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.Servlet;
 import java.io.IOException;
+import java.util.Objects;
 
 
 @Component(service = Servlet.class)
@@ -31,17 +31,17 @@ public class ContactServlet extends SlingAllMethodsServlet {
     @Override
     protected void doPost(SlingHttpServletRequest req, SlingHttpServletResponse res) throws IOException {
 
-        String path = req.getRequestParameter("path").getString();
-        String gestor = req.getRequestParameter("gestor").getString();
+        String path = Objects.requireNonNull(req.getRequestParameter("path")).getString();
+        String gestor = Objects.requireNonNull(req.getRequestParameter("gestor")).getString();
 
-        String client = req.getRequestParameter("contact_email").getString();
-        String subject = req.getRequestParameter("contact_subject").getString();
-        String body = req.getRequestParameter("contact_message").getString();
+        String client = Objects.requireNonNull(req.getRequestParameter("contact_email")).getString();
+        String subject = Objects.requireNonNull(req.getRequestParameter("contact_subject")).getString();
+        String body = Objects.requireNonNull(req.getRequestParameter("contact_message")).getString();
 
 
         Boolean emailCheck =  Email.sendEmail(gestor ,client, subject, body);
 
-        if (emailCheck){
+        if (Boolean.TRUE.equals(emailCheck)){
             res.sendRedirect(path + "?emailSend=success");
         }
         else {
