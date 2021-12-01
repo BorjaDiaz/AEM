@@ -16,6 +16,13 @@ if (noSpace == undefined){
         linkedArray.find(element => element.innerHTML.toLowerCase() == 'order online').classList.toggle('activeLink');
     }
 
+    if (locString.includes("contact.html")){
+
+        console.log(linkedArray)
+        
+        linkedArray.find(element => element.innerHTML.toLowerCase() == 'store locator').classList.toggle('activeLink');
+    }
+
     else {
         linkedArray.forEach(element => {
             if(element.innerHTML.toLowerCase().indexOf(' ') !== -1){

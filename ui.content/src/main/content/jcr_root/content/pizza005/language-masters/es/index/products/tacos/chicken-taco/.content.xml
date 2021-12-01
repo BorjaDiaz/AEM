@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-01T09:21:07.204+01:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2021-12-01T09:21:07.204+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:49.360+01:00"
+        cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/tacos/chicken-taco"
+        cq:translationStatus="APPROVED"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Taco de pollo"
+        jcr:uuid="570c54af-17a6-41dc-ba0b-cd2f46fa5fae"
+        sling:resourceType="pizza005/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <title
+                jcr:created="{Date}2021-11-22T13:05:30.285Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-26T08:46:47.387Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Taco de pollo"
+                sling:resourceType="pizza005/components/title"/>
+            <text_1423635834
+                jcr:created="{Date}2021-11-22T13:08:34.188Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T16:00:07.645Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>4,99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_1310728108
+                jcr:created="{Date}2021-11-22T13:08:32.124Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T16:00:01.984Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>L&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_536436341
+                jcr:created="{Date}2021-11-22T13:08:30.069Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:59:58.353Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>8,99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_1280387070
+                jcr:created="{Date}2021-11-22T13:08:23.753Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:59:51.043Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>XL&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_726754299
+                jcr:created="{Date}2021-11-22T13:08:21.442Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:59:45.884Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Tamaño de la selección&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text
+                jcr:created="{Date}2021-11-22T13:08:18.976Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:59:06.151Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>&lt;i>Esta deliciosa y fácil manera de cocinar muslos de pollo deshuesados y es tan genial como los tacos como lo es con sus bebidas favoritas.&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2021-11-22T13:09:21.176Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:57:55.265Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                fileReference="/content/dam/pizza005/es/chicken taco.jpg"/>
+        </root>
+    </jcr:content>
+</jcr:root>
