@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-01T09:32:32.583+01:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2021-12-01T09:32:32.583+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:52.015+01:00"
+        cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/pizza/primo-meat"
+        cq:translationStatus="APPROVED"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Primo Carne"
+        jcr:uuid="d618cc63-e1f7-45d3-a499-f173b9dc8e3e"
+        sling:resourceType="pizza005/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <title
+                jcr:created="{Date}2021-11-22T13:05:30.285Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-26T08:39:29.553Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Primo Carne"
+                sling:resourceType="pizza005/components/title"/>
+            <text_1423635834
+                jcr:created="{Date}2021-11-22T13:08:34.188Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:17:51.385Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>99,99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_1310728108
+                jcr:created="{Date}2021-11-22T13:08:32.124Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:17:44.134Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>29 centimetri&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_536436341
+                jcr:created="{Date}2021-11-22T13:08:30.069Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:17:38.338Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>99,99 €&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_1280387070
+                jcr:created="{Date}2021-11-22T13:08:23.753Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:17:31.142Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>29 centimetri&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text_726754299
+                jcr:created="{Date}2021-11-22T13:08:21.442Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:17:24.081Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Scegli Taglia&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <text
+                jcr:created="{Date}2021-11-22T13:08:18.976Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:17:19.621Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>&lt;i>Olio extravergine di oliva, mozzarella, bistecca a fette sottili, aglio, peperoni verdi, funghi e pomodori&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2021-11-22T13:09:21.176Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-22T15:16:32.024Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                fileReference="/content/dam/pizza005/it/meat.jpg"/>
+        </root>
+    </jcr:content>
+</jcr:root>

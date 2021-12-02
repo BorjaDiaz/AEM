@@ -2,10 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-29T13:10:54.417Z"
+        cq:lastModified="{Date}2021-12-01T14:26:41.981Z"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="About"
@@ -22,31 +23,38 @@
                 <title
                     jcr:created="{Date}2021-11-29T09:55:07.960Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-29T09:57:13.721Z"
+                    jcr:lastModified="{Date}2021-12-01T14:26:41.978Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/title"
-                    id="abouttitle"
-                    type="h1"/>
+                    id="page-title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                </title>
                 <image
                     jcr:created="{Date}2021-11-29T09:39:18.646Z"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-29T09:56:20.313Z"
+                    jcr:lastModified="{Date}2021-12-01T10:14:46.296Z"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/image"
                     alt="aboutimage"
                     altValueFromDAM="false"
                     displayPopupTitle="false"
-                    fileReference="/content/dam/pizza005/pizzaman.jpg"
+                    fileReference="/content/dam/pizza005/quattro-formiaggi.jpg"
                     id="aboutimage"
                     isDecorative="false"
                     titleValueFromDAM="false">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="6"/>
+                            offset="1"
+                            width="5"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
@@ -67,13 +75,27 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="6"/>
+                            width="5"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"
                             width="12"/>
                     </cq:responsive>
                 </text>
+                <separator
+                    jcr:created="{Date}2021-12-01T10:43:18.369Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-01T10:43:18.369Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/separator">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="3"/>
+                    </cq:responsive>
+                </separator>
                 <social
                     jcr:created="{Date}2021-11-29T09:44:47.159Z"
                     jcr:createdBy="admin"
@@ -94,7 +116,7 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="6"/>
+                            width="5"/>
                         <phone
                             jcr:primaryType="nt:unstructured"
                             offset="0"

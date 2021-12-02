@@ -1,6 +1,7 @@
 .pzbf-languagebuttom {
 	text-align: center;
 	font-size: 0.7em;
+	position: relative;
 }
 
 .pzbf-languagebuttom ul {
@@ -8,19 +9,25 @@
 	margin: 0px;
     padding: 0px;
     outline: 0;
+	transition: opacity 0.2s linear;
 }
 
 .pzbf-languagebuttom ul li {
 	width: 100px;
+	background-color: #C00A27;
+	&:hover{background-color: #84061A;}
+}
+.pzbf-languagebuttom__list__current::after{
+	content: "\f0d1";
+	display: inline-block;
+	color: #fff;
 }
 
 .pzbf-languagebuttom ul li a {
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #C00A27;
-	border: solid 1px #fff;
 	padding: 8px;
 	position: relative;
 }
@@ -33,7 +40,7 @@
 }
 
 .pzbf-languagebuttom ul li ul {
-	display: none;
+	opacity: 0;
 }
 
 
@@ -45,6 +52,9 @@
 
 .pzbf-languagebuttom__ul {
 	color: #000;
+	position: absolute;
+	top: 0;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 
 
@@ -53,19 +63,21 @@
 }
 
 .pzbf-languagebuttom ul li a:hover{
-	background-color: #6CC;
-	color: #000;
+	background-color: #84061A;
+	color: #fff;
 	position: relative;
 }
 
 .pzbf-languagebuttom ul li:hover  ul.pzbf-languagebuttom__ul{
-	display: block;
+	opacity: 1;
 	position: absolute;
-	left: 0px;
+	box-shadow: 0px 9px 17px -2px rgba(0, 0, 0, 0.4);
 }
 
 
 .pzbf-languagebuttom ul li ul li a:hover {
-	border-top-color: #000;
 	position: relative;
+}
+@media only screen and (max-width: 770px) {
+    .pzbf-languagebuttom {display: none;}
 }

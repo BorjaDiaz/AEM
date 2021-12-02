@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-12-01T09:21:03.206+01:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2021-12-01T09:21:03.206+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:48.640+01:00"
+        cq:template="/conf/pizza005/settings/wcm/templates/news-template"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/pizza005/language-masters/en/index/news/news-4"
+        cq:translationStatus="APPROVED"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:language="es"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Noticias 4"
+        jcr:uuid="1921b19b-cc06-440e-a616-48e1dc6be508"
+        sling:resourceType="pizza005/components/page"
+        linkAsset="/content/dam/pizza005/icons/fries_icon.png">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="pizza005/components/container"
+            layout="responsiveGrid">
+            <text_extra
+                jcr:created="{Date}2021-11-24T14:35:50.589Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T14:36:02.334Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"/>
+            <text
+                jcr:created="{Date}2021-11-24T14:35:46.541Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T14:36:03.866Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"/>
+            <title
+                jcr:created="{Date}2021-11-24T14:35:42.324Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:19:10.906Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Entrega gratuita"
+                sling:resourceType="pizza005/components/title"
+                type="h2"/>
+            <image
+                jcr:created="{Date}2021-11-24T14:35:37.809Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-24T15:18:59.176Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/image"
+                fileReference="/content/dam/pizza005/es/free-delivery.jpg"/>
+            <text_desc
+                jcr:lastModified="{Date}2021-11-30T11:45:57.175Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/text"
+                text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis porttitor pellentesque. Mauris laoreet ligula ut augue consequat ultricies. Nullam ac congue risus, sit amet posuere magna. Clase aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed at elit sed est congue efficitur. Entero sagittis ligula quis congue commodo. Aenean tortor ligula, malesuada sit amet nibh ac, condimentum ultricies diam. Nullam nec mauris lacus. Pellentesque fermentum pellentesque congue. Ut maximus, est ut fermentum hendrerit, sem odio egestas neque, viverra sollicitudin arcu leo vitae erat. Vivamus ipsum nisl, bibendum a fringilla a, cursus eu sapien. Cras scelerisque gravida cursus. In odio eros, euismod ut hendrerit ut, finibus ac nisl. Pellentesque pharetra justo ac enim ultricies ultrices.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

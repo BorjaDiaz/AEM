@@ -2,15 +2,17 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-11-29T08:25:55.740Z"
+        cq:lastModified="{Date}2021-12-01T14:56:48.489+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Homepage"
         jcr:uuid="146389c8-0ec3-4b7f-bb5c-19e7ade6de5f"
-        sling:resourceType="pizza005/components/page">
+        sling:resourceType="pizza005/components/page"
+        linkAsset="/content/dam/pizza005/pizzabay_logo.png">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="pizza005/components/container"
@@ -167,6 +169,82 @@
                             productsRoute="/content/pizza005/language-masters/en/index/products/drinks"/>
                     </item_1>
                 </tabs_1812441546>
+                <prefooterbase
+                    jcr:created="{Date}2021-12-01T14:54:38.471+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-01T14:54:38.471+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/prefooterbase">
+                    <prefootercard
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:55:34.573+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/chef_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="MasterChef">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard>
+                    <prefootercard_copy
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:56:24.218+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/bag_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="Best Quality">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy>
+                    <prefootercard_copy_267883161
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:56:37.830+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/food_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="Taste Food">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy_267883161>
+                    <prefootercard_copy_1054882747
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:56:48.482+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/clock_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="On Time">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy_1054882747>
+                </prefooterbase>
             </container>
             <experiencefragment
                 cq:styleIds="[1637755439983]"

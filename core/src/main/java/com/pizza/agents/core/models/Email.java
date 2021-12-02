@@ -1,5 +1,7 @@
 package com.pizza.agents.core.models;
 
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.models.annotations.Model;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +12,9 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
+@Model(adaptables = Resource.class)
 public class Email {
+
     private static final Logger log = LoggerFactory.getLogger(Email.class);
 
     public static Boolean sendEmail(String gestor, String client, String subject, String body){
