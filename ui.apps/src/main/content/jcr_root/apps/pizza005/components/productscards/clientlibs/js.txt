@@ -1,0 +1,4 @@
+#base=js
+
+easy-paginate.js
+js.js
