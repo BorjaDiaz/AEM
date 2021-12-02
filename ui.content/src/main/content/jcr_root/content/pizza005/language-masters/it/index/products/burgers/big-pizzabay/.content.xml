@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:32:33.774+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:39.283+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:32:33.774+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:52.202+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:39.283+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:21.186+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/burgers/big-pizzabay"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="it"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Grande Pizzabay Burger"
-        jcr:uuid="035cb706-0a97-4d11-9b0a-66d31761eddc"
+        jcr:uuid="88df1177-b7c1-4a8f-96e4-3fe45ff202f0"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

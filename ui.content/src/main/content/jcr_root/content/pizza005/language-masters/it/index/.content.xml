@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:32:30.059+01:00"
+        cq:lastModified="{Date}2021-12-02T15:21:05.680+01:00"
         cq:lastModifiedBy="admin"
-        cq:lastTranslationDone="{Date}2021-12-01T09:32:30.059+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:51.749+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:35.755+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:20.726+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pagina iniziale"
-        jcr:uuid="6627d763-e998-4911-a8e7-5a42cbec0baf"
+        jcr:uuid="f355d96f-5f07-432f-9485-8f0d2980d86b"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/pizzabay_logo.png">
         <root
@@ -31,21 +31,46 @@
                 <carousel_bay
                     jcr:created="{Date}2021-11-26T12:22:25.218+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-26T12:22:25.218+01:00"
+                    jcr:lastModified="{Date}2021-12-02T12:07:40.981+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="pizza005/components/carousel-bay">
+                    sling:resourceType="pizza005/components/carousel-bay"
+                    autopauseDisabled="false"
+                    autoplay="false"
+                    delay="5000">
                     <teaser_bay
-                        jcr:created="{Date}2021-11-26T12:22:31.147+01:00"
+                        cq:panelTitle="1"
+                        jcr:created="{Date}2021-12-02T11:59:12.713+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-11-29T08:25:55.737Z"
+                        jcr:lastModified="{Date}2021-12-02T12:00:57.015+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/teaser-bay"
+                        fileReference="/content/dam/pizza005/it/salad1.jpg"
+                        islimited="true"
+                        text="Nuova Offerta"
+                        textIsRich="true"
+                        title="INSALATA NORMALE"/>
+                    <item_1638443134309
+                        cq:panelTitle="2"
+                        jcr:lastModified="{Date}2021-12-02T12:06:28.042+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/teaser-bay"
+                        fileReference="/content/dam/pizza005/it/chicken taco.jpg"
+                        text="Nuova Offerta"
+                        textIsRich="true"
+                        title="IMPACCHI PREMIUM"/>
+                    <item_1638443259374
+                        cq:panelTitle="3"
+                        jcr:lastModified="{Date}2021-12-02T12:08:22.216+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/teaser-bay"
                         fileReference="/content/dam/pizza005/it/bb-chicken.jpg"
-                        islimited="true"
+                        text="Offerta limite di tempo"
                         textIsRich="true"
-                        title="POLLO BARBECUE DELUXE"/>
+                        title="BARBECUE DELUXE "/>
                 </carousel_bay>
                 <container
                     jcr:created="{Date}2021-11-26T12:12:22.138+01:00"
@@ -123,7 +148,7 @@
                 <tabs
                     jcr:created="{Date}2021-11-26T12:23:04.380+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-26T12:23:37.583+01:00"
+                    jcr:lastModified="{Date}2021-12-02T15:20:15.983+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/tabs">
@@ -143,7 +168,7 @@
                             productsRoute="/content/pizza005/language-masters/it/index/products/pizza"/>
                     </item_1>
                     <item_2
-                        cq:panelTitle="Pizza Sets"
+                        cq:panelTitle="Pizza"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Scheda 2"
                         sling:resourceType="pizza005/components/container"
@@ -176,6 +201,99 @@
                             productsRoute="/content/pizza005/language-masters/it/index/products/drinks"/>
                     </item_1>
                 </tabs_1812441546>
+                <prefooterbase
+                    jcr:created="{Date}2021-12-01T14:54:38.471+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-01T14:54:38.471+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/prefooterbase">
+                    <prefootercard
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:55:34.573+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/chef_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="MasterChef">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard>
+                    <prefootercard_copy
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:56:24.218+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/bag_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="Migliore Qualità">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy>
+                    <prefootercard_copy_267883161
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:56:37.830+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/food_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="Assaggia il cibo">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy_267883161>
+                    <prefootercard_copy_1
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-01T14:56:48.482+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/clock_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="In tempo">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy_1>
+                    <prefootercard_copy_1054882747
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-02T15:21:05.675+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/clock_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="Il Meglio">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy_1054882747>
+                </prefooterbase>
             </container>
             <experiencefragment
                 cq:styleIds="[1637755439983]"

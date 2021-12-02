@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:32:37.409+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:43.094+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:32:37.409+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:52.738+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:43.094+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:21.651+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/drinks/cola"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="it"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Cola"
-        jcr:uuid="f494c583-cf07-4432-989f-810074e6dcb7"
+        jcr:uuid="25cf776b-62be-4b35-828c-303b684b9871"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

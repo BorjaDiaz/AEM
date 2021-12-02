@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:21:08.109+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:44.393+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:21:08.109+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:49.493+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:44.394+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:18.203+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/wraps/salad-wrap"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="es"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Envoltura de ensalada"
-        jcr:uuid="7a25b1e7-714a-4351-ae5c-a5a0f672b3fc"
+        jcr:uuid="3c1ce495-3876-47d4-9e03-1f8d951958e1"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

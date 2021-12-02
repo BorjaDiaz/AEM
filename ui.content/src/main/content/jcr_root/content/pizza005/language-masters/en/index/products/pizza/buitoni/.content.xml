@@ -6,6 +6,7 @@
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="en"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Buitoni"

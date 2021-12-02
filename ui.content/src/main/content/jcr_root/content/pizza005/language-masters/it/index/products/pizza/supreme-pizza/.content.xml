@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:32:32.336+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:37.959+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:32:32.336+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:51.992+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:37.959+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:21.002+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/pizza/supreme-pizza"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="it"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pizza Suprema"
-        jcr:uuid="2680178a-7cfc-4d94-b588-5411ffcc77dc"
+        jcr:uuid="473147c9-a2a1-420b-ac66-be682ac901e2"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:21:07.653+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:43.902+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:21:07.653+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:49.412+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:43.902+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:18.140+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/tacos/vegetaco"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="es"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Vegetaco"
-        jcr:uuid="df556e7a-eace-446b-95a8-07e8bad54fc7"
+        jcr:uuid="8bca676e-0fc5-4695-a0d2-605e210f1e44"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

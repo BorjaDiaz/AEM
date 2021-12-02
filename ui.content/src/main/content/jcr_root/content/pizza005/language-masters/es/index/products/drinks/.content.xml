@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:21:09.170+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:45.422+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:21:09.170+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:49.686+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:45.422+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:18.322+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/drinks"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="es"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Bebidas"
-        jcr:uuid="ef5374ba-fc8a-46ee-8881-a384812fbf9e"
+        jcr:uuid="4f5455f7-5c4a-4fba-8c83-d4bc0e9a5275"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/drink_icon.png">
         <root
@@ -26,7 +27,15 @@
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/container"
-                layout="responsiveGrid"/>
+                layout="responsiveGrid">
+                <productscards
+                    jcr:created="{Date}2021-12-02T13:03:34.350Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-12-02T13:03:34.350Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/productscards"/>
+            </container>
         </root>
     </jcr:content>
     <cola/>

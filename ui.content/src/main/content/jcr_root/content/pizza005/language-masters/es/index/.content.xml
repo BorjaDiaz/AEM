@@ -2,13 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T15:03:49.094+01:00"
-        cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:21:01.689+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T15:02:32.607+01:00"
+        cq:lastModified="{Date}2021-12-02T15:23:03.690+01:00"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:37.959+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:17.482+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         cq:translationMethod="MACHINE_TRANSLATION"
-        cq:translationProject="[/content/projects/pizzabay_languagetranslationxf/pizzabay_language_translation_xf,/content/projects/pizzabay_translation0/pizzabay_translation1]"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
         cq:translationProviderName="microsoft"
         cq:translationSourcePath="/content/pizza005/language-masters/en/index"
@@ -18,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Página principal"
-        jcr:uuid="5e42a89f-bec0-4ff5-8cfb-91e0fccc9e24"
+        jcr:uuid="65259e65-4ad3-4670-b9ea-2a270838b4de"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/pizzabay_logo.png">
         <root
@@ -32,26 +31,51 @@
                 <carousel_bay
                     jcr:created="{Date}2021-11-26T12:22:25.218+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-12-01T15:03:48.948+01:00"
+                    jcr:lastModified="{Date}2021-12-02T12:07:40.981+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="pizza005/components/carousel-bay">
+                    sling:resourceType="pizza005/components/carousel-bay"
+                    autopauseDisabled="false"
+                    autoplay="false"
+                    delay="5000">
                     <teaser_bay
-                        jcr:created="{Date}2021-11-26T12:22:31.147+01:00"
+                        cq:panelTitle="1"
+                        jcr:created="{Date}2021-12-02T11:59:12.713+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:48.952+01:00"
+                        jcr:lastModified="{Date}2021-12-02T12:00:57.015+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/teaser-bay"
+                        fileReference="/content/dam/pizza005/es/salad1.jpg"
+                        islimited="true"
+                        text="Nueva oferta"
+                        textIsRich="true"
+                        title="ENSALADA NORMAL"/>
+                    <item_1638443134309
+                        cq:panelTitle="2"
+                        jcr:lastModified="{Date}2021-12-02T12:06:28.042+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/teaser-bay"
+                        fileReference="/content/dam/pizza005/es/chicken taco.jpg"
+                        text="Nueva oferta"
+                        textIsRich="true"
+                        title="ENVOLTURAS PREMIUM"/>
+                    <item_1638443259374
+                        cq:panelTitle="3"
+                        jcr:lastModified="{Date}2021-12-02T12:08:22.216+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/teaser-bay"
                         fileReference="/content/dam/pizza005/es/bb-chicken.jpg"
-                        islimited="true"
+                        text="Oferta de tiempo límite"
                         textIsRich="true"
-                        title="POLLO A LA BARBACOA DE LUJO"/>
+                        title="BARBACOA DELUXE "/>
                 </carousel_bay>
                 <container
                     jcr:created="{Date}2021-11-26T12:12:22.138+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-12-01T15:03:48.966+01:00"
+                    jcr:lastModified="{Date}2021-11-26T12:14:00.074+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/container"
@@ -59,7 +83,7 @@
                     <news
                         jcr:created="{Date}2021-11-26T12:12:41.347+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:48.974+01:00"
+                        jcr:lastModified="{Date}2021-11-26T15:29:31.443+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/news"
@@ -75,7 +99,7 @@
                     <news_608113080
                         jcr:created="{Date}2021-11-26T15:46:47.013+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:48.987+01:00"
+                        jcr:lastModified="{Date}2021-11-26T15:47:16.449+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/news"
@@ -91,7 +115,7 @@
                     <news_604479189
                         jcr:created="{Date}2021-11-26T15:47:45.706+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:48.995+01:00"
+                        jcr:lastModified="{Date}2021-11-26T15:47:59.017+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/news"
@@ -107,7 +131,7 @@
                     <news_307855124
                         jcr:created="{Date}2021-11-26T15:48:12.571+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:49.003+01:00"
+                        jcr:lastModified="{Date}2021-11-26T15:48:23.233+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/news"
@@ -124,7 +148,7 @@
                 <tabs
                     jcr:created="{Date}2021-11-26T12:23:04.380+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-12-01T15:03:49.009+01:00"
+                    jcr:lastModified="{Date}2021-12-02T15:21:34.992+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/tabs">
@@ -137,14 +161,14 @@
                         <complementsglider
                             jcr:created="{Date}2021-11-26T15:34:20.932+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-12-01T15:03:49.015+01:00"
+                            jcr:lastModified="{Date}2021-11-26T15:38:02.170+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="pizza005/components/complementsglider"
                             productsRoute="/content/pizza005/language-masters/es/index/products/pizza"/>
                     </item_1>
                     <item_2
-                        cq:panelTitle="Pizza Sets"
+                        cq:panelTitle="Pizza"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Ficha 2"
                         sling:resourceType="pizza005/components/container"
@@ -157,7 +181,7 @@
                 <tabs_1812441546
                     jcr:created="{Date}2021-11-26T12:23:07.796+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-12-01T15:03:49.024+01:00"
+                    jcr:lastModified="{Date}2021-11-26T12:23:52.894+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/tabs">
@@ -170,7 +194,7 @@
                         <complementsglider
                             jcr:created="{Date}2021-11-26T15:40:39.203+01:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2021-12-01T15:03:49.033+01:00"
+                            jcr:lastModified="{Date}2021-11-26T15:40:50.982+01:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="pizza005/components/complementsglider"
@@ -178,118 +202,92 @@
                     </item_1>
                 </tabs_1812441546>
                 <prefooterbase
-                    cq:lastRolledout="{Date}2021-12-01T15:03:49.051+01:00"
-                    cq:lastRolledoutBy="translation-job-service"
                     jcr:created="{Date}2021-12-01T14:54:38.471+01:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2021-12-01T14:54:38.471+01:00"
                     jcr:lastModifiedBy="admin"
-                    jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/prefooterbase">
                     <prefootercard
-                        cq:lastRolledout="{Date}2021-12-01T15:03:49.057+01:00"
-                        cq:lastRolledoutBy="translation-job-service"
                         jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:49.054+01:00"
+                        jcr:lastModified="{Date}2021-12-01T14:55:34.573+01:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/prefootercard"
                         fileReference="/content/dam/pizza005/icons/chef_icon.png"
                         text="Praesentpulvinarnequepellen tesquemattispretium"
                         title="MasterChef">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2021-12-01T15:03:49.059+01:00"
-                            cq:lastRolledoutBy="translation-job-service"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2021-12-01T15:03:49.062+01:00"
-                                cq:lastRolledoutBy="translation-job-service"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="3"/>
                         </cq:responsive>
                     </prefootercard>
                     <prefootercard_copy
-                        cq:lastRolledout="{Date}2021-12-01T15:03:49.067+01:00"
-                        cq:lastRolledoutBy="translation-job-service"
                         jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:49.064+01:00"
+                        jcr:lastModified="{Date}2021-12-01T14:56:24.218+01:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/prefootercard"
                         fileReference="/content/dam/pizza005/icons/bag_icon.png"
                         text="Praesentpulvinarnequepellen tesquemattispretium"
                         title="La mejor calidad">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2021-12-01T15:03:49.069+01:00"
-                            cq:lastRolledoutBy="translation-job-service"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2021-12-01T15:03:49.072+01:00"
-                                cq:lastRolledoutBy="translation-job-service"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="3"/>
                         </cq:responsive>
                     </prefootercard_copy>
                     <prefootercard_copy_267883161
-                        cq:lastRolledout="{Date}2021-12-01T15:03:49.077+01:00"
-                        cq:lastRolledoutBy="translation-job-service"
                         jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:49.075+01:00"
+                        jcr:lastModified="{Date}2021-12-01T14:56:37.830+01:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/prefootercard"
                         fileReference="/content/dam/pizza005/icons/food_icon.png"
                         text="Praesentpulvinarnequepellen tesquemattispretium"
                         title="Pruebe la comida">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2021-12-01T15:03:49.079+01:00"
-                            cq:lastRolledoutBy="translation-job-service"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2021-12-01T15:03:49.082+01:00"
-                                cq:lastRolledoutBy="translation-job-service"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="3"/>
                         </cq:responsive>
                     </prefootercard_copy_267883161>
-                    <prefootercard_copy_1054882747
-                        cq:lastRolledout="{Date}2021-12-01T15:03:49.087+01:00"
-                        cq:lastRolledoutBy="translation-job-service"
+                    <prefootercard_copy_1
                         jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-01T15:03:49.084+01:00"
+                        jcr:lastModified="{Date}2021-12-01T14:56:48.482+01:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[cq:LiveRelationship]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/prefootercard"
                         fileReference="/content/dam/pizza005/icons/clock_icon.png"
                         text="Praesentpulvinarnequepellen tesquemattispretium"
                         title="En hora">
-                        <cq:responsive
-                            cq:lastRolledout="{Date}2021-12-01T15:03:49.088+01:00"
-                            cq:lastRolledoutBy="translation-job-service"
-                            jcr:mixinTypes="[cq:LiveRelationship]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                cq:lastRolledout="{Date}2021-12-01T15:03:49.091+01:00"
-                                cq:lastRolledoutBy="translation-job-service"
-                                jcr:mixinTypes="[cq:LiveRelationship]"
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3"/>
+                        </cq:responsive>
+                    </prefootercard_copy_1>
+                    <prefootercard_copy_1054882747
+                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-12-02T15:21:50.648+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/prefootercard"
+                        fileReference="/content/dam/pizza005/icons/clock_icon.png"
+                        text="Praesentpulvinarnequepellen tesquemattispretium"
+                        title="Los mejores">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="0"
                                 width="3"/>
@@ -299,7 +297,7 @@
             </container>
             <experiencefragment
                 cq:styleIds="[1637755439983]"
-                jcr:lastModified="{Date}2021-12-01T15:03:49.092+01:00"
+                jcr:lastModified="{Date}2021-11-24T12:05:28.429Z"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/experiencefragment"

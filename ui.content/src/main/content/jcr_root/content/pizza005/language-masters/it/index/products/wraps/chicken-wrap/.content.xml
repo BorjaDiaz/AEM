@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:32:35.983+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:41.654+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:32:35.983+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:52.548+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:41.654+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:21.485+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/wraps/chicken-wrap"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="it"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Involucro di pollo"
-        jcr:uuid="82c83d1a-45bd-4d8d-a793-3ec252fddf5b"
+        jcr:uuid="4423c16d-b3da-4012-9025-eab9f3ae31d9"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T09:32:37.830+01:00"
+        cq:lastModified="{Date}2021-12-02T13:24:43.441+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-01T09:32:37.830+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-01T09:13:52.786+01:00"
+        cq:lastTranslationDone="{Date}2021-12-02T13:24:43.441+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:21.693+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,10 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/drinks/water"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
+        jcr:language="it"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Acqua"
-        jcr:uuid="690371c6-85b6-48b1-8f47-933fd7d6701c"
+        jcr:uuid="8d37b3b0-acfc-4ef1-961f-8b3429d363ab"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"
