@@ -2,7 +2,7 @@
 let section = document.querySelector('.pzbf-header__section2');
 const localString = window.location.href.toString();
 
-if (localString.includes("index.html")){
+if (localString.includes("index.html") || localString.includes("/products/")){
         
     section.classList.toggle('hidde');
 }
