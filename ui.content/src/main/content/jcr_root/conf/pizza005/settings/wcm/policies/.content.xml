@@ -581,7 +581,7 @@
                     jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[pizza005.dependencies,pizza005.components]"
-                    clientlibsJsHead="pizza005.dependencies">
+                    clientlibsJsHead="pizza005.dependencies,cq.jquery">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>
