@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Envoltura de ensalada"
-        jcr:uuid="96fe2a92-9035-477a-b73e-470bf28bd336"
+        jcr:uuid="7a25b1e7-714a-4351-ae5c-a5a0f672b3fc"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

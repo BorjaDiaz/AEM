@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Notizie"
-        jcr:uuid="7e606425-8c45-4c12-ad20-bfcef282886a"
+        jcr:uuid="e44f411d-cffa-4399-9f4f-a7708a7cb804"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

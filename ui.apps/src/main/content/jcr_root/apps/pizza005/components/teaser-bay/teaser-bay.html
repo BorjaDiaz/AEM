@@ -2,7 +2,7 @@
     <div class="pzby-teaser__wrap">
         <div class="pzby-teaser__overlay"></div>
         <div class="pzby-teaser__text-box">
-            <sly data-sly-test="${properties.islimited}"><p class="pzby-teaser__subtitle"><span class="pzby-teaser__badge">new!</span> Limited time offer</p></sly>
+            <sly><p class="pzby-teaser__subtitle">${properties.text}</p></sly>
             <h2 class="pzby-teaser__title">${properties.title}</h2>
             <div class="pzby-teaser__description">${properties.description @ context = "html"}</div>
         </div>

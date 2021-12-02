@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Cerveza ligera"
-        jcr:uuid="fb85c8ca-9a3b-45f4-acfb-659757495236"
+        jcr:uuid="44776c3b-7bc7-48f2-b9d5-d5c099b7139f"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Involucro di pollo"
-        jcr:uuid="ebc67c72-1f51-4a82-bbec-8d95c79f1058"
+        jcr:uuid="82c83d1a-45bd-4d8d-a793-3ec252fddf5b"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

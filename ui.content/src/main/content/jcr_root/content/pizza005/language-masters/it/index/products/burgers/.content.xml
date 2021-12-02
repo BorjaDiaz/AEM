@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Hamburger"
-        jcr:uuid="f2b25f05-ea38-4796-852e-c17c4dc09533"
+        jcr:uuid="9081b97e-21f9-4f51-ab81-752c23ea6096"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/burger_icon.png">
         <root

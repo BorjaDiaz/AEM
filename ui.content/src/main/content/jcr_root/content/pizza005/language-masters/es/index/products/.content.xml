@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Productos"
-        jcr:uuid="042775d6-ad16-4526-a44b-aacb84b21ef6"
+        jcr:uuid="87050fd2-673a-4f9d-a645-ec50718f91dd"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

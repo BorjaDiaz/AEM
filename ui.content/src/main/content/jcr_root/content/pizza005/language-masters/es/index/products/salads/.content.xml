@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Ensaladas"
-        jcr:uuid="870897d6-808f-468b-bbe1-01ce41f4bbe7"
+        jcr:uuid="9ab0b28a-6d09-4f9d-b82d-4499cef9397d"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/salad_icon.png">
         <root

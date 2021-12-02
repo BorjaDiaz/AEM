@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Patatine fritte in Italia"
-        jcr:uuid="705c1aa4-77f0-4a62-8d3d-46083f532c0b"
+        jcr:uuid="06a15501-2eab-4890-8028-a39e0c70e170"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

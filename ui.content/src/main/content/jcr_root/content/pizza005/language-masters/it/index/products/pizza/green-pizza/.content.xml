@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pizza Verde"
-        jcr:uuid="2559b9ce-b992-46f2-a564-2045d311fdb1"
+        jcr:uuid="d0b2330f-92d0-4e45-85ec-09eaeaafba87"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root

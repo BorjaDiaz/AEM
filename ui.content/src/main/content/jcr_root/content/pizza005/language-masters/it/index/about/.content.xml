@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Circa"
-        jcr:uuid="a454c21e-c13e-4ea3-a041-13a741636134"
+        jcr:uuid="cdc4a43a-688f-4679-963c-1cbbf06098a7"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

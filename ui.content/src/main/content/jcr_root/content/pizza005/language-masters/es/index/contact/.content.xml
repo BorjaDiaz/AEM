@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Contacto"
-        jcr:uuid="e23096b3-9f5d-4d19-be3c-37061af86fde"
+        jcr:uuid="75aaff5c-efc4-4e43-af9d-b40748601bcb"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

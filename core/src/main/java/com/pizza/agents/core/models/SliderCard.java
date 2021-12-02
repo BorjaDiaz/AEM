@@ -42,8 +42,8 @@ public class SliderCard {
 
 
 
-    private ArrayList<SliderCardInfo> componentsInfo=new ArrayList<>();
-    private SliderCardInfo componentInfo=new SliderCardInfo();
+    private ArrayList<ProductsInfo> componentsInfo=new ArrayList<>();
+    private ProductsInfo componentInfo=new ProductsInfo();
 
 
     @Inject @Optional
@@ -54,13 +54,14 @@ public class SliderCard {
     protected void init() {
 
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+        //SliderCardInfo miSci= pageManager.getContainingPage(currentResource).adaptTo(SliderCardInfo.class);
         try {
         for (Resource rsc : resourceResolver.getResource(productsRoute).getChildren())    {
             if(!rsc.getName().equals("jcr:content")){
                 StringBuilder str = new StringBuilder();
                 page = pageManager.getContainingPage(rsc);
 
-                    componentInfo=new SliderCardInfo();
+                    componentInfo=new ProductsInfo();
 
                     str.append("OBTAINING DATA FROM: ").append(rsc.getName()).append(" en ").append(rsc.getPath());
                     loggerCard.info(str.toString());
@@ -91,7 +92,7 @@ public class SliderCard {
 
 
 
-    public ArrayList<SliderCardInfo> getComponentsInfo() {
+    public ArrayList<ProductsInfo> getComponentsInfo() {
         return componentsInfo;
     }
 }

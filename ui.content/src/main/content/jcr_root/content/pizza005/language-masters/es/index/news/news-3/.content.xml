@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Noticias 3"
-        jcr:uuid="3444d0c5-1787-4b2c-af58-f238342967de"
+        jcr:uuid="5f9cf329-2899-46db-8d76-18d2ddb6f39f"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root

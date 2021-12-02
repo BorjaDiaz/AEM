@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Envuelve"
-        jcr:uuid="a264500c-0948-4633-968d-eb6cd2a94430"
+        jcr:uuid="39429aa4-f750-4877-93a7-701a9ea2bc6a"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/wrap_icon.png">
         <root

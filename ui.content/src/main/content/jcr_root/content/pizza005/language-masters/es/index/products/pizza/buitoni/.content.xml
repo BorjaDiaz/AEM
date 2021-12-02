@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Buitoni"
-        jcr:uuid="bc020c75-2c4d-46cc-8ab6-031848baad41"
+        jcr:uuid="22082572-a67e-4148-a66f-764ed4c8f2bc"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root

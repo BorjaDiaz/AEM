@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Hamburger di vege"
-        jcr:uuid="9ff6b55d-14db-4447-a21d-d26127e8c28f"
+        jcr:uuid="e3a08c88-a482-47c3-ad5d-0b33d58a6603"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

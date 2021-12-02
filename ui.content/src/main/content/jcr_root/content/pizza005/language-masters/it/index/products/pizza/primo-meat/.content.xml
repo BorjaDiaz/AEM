@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Primo Carne"
-        jcr:uuid="d618cc63-e1f7-45d3-a499-f173b9dc8e3e"
+        jcr:uuid="2763cd95-0fa8-4f3d-9ef8-2832aa271f36"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

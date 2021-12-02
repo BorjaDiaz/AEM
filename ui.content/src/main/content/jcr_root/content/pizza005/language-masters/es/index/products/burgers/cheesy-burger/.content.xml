@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Hamburguesa con queso"
-        jcr:uuid="4fd0d361-e7ae-4c36-adf2-64cb1de7241e"
+        jcr:uuid="770a0e6b-0758-4e4c-ba24-007b733a397d"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Patatine fritte piccanti"
-        jcr:uuid="522f0bb8-6a4e-47f9-b092-5eab3586cde7"
+        jcr:uuid="bd5a140a-b9aa-4017-b9fc-0d3466f033ff"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

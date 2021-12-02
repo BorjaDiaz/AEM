@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Birra leggera"
-        jcr:uuid="e9ede5af-da98-4e46-9321-e707e9feca3d"
+        jcr:uuid="67e317c1-ba02-4c0e-92aa-0eb4025f1d0c"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

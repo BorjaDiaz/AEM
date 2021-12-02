@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Insalate"
-        jcr:uuid="22c2bd62-74d9-45a7-9ac1-ffe1727d8339"
+        jcr:uuid="a3868b6d-9dfa-412e-a645-3ab20d7cfdf4"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/salad_icon.png">
         <root

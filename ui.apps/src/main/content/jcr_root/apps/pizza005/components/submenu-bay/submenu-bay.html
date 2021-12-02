@@ -4,7 +4,7 @@
 <div class="pzbf-header__section2 hidde">
     <ul data-sly-list.listing="${model.pathList}" class="pzbf-header__list">
         
-            <a href="#" class="pzbf-list__item--URL"><li class="pzbf-list__item"><img class="pzbf-item__img" src="${listing.asset}" alt="Icon" />${listing.title}</li></a>
+            <a href="${listing.path @extension='html'}" class="pzbf-list__item--URL"><li class="pzbf-list__item"><img class="pzbf-item__img" src="${listing.asset}" alt="Icon" />${listing.title}</li></a>
         
     </ul>
     
@@ -18,7 +18,7 @@
 
         
         
-            <a href="#" class="pzbf-list__item--URL"><li class="pzbf-list__item">${listing.title}</li></a>
+            <a href="${listing.path @extension='html'}" class="pzbf-list__item--URL"><li class="pzbf-list__item">${listing.title}</li></a>
         
     </ul>
     

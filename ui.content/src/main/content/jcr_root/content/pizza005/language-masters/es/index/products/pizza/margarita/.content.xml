@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Margarita"
-        jcr:uuid="fdac4ece-96e0-490a-b9f1-daed1d39a007"
+        jcr:uuid="bde23935-4e9c-4e12-9107-276340a2beaa"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root

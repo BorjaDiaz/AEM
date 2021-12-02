@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Avvolge"
-        jcr:uuid="1fe6d49c-dc63-4eb7-9b1a-bafbf18ce2dc"
+        jcr:uuid="7daab9da-186d-49e7-92ac-aca4eed9dab2"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/wrap_icon.png">
         <root

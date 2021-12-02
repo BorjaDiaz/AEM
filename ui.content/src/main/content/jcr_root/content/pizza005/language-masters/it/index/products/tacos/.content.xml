@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Tacos"
-        jcr:uuid="8492a934-259a-40d7-9a3a-f69f1c7401f0"
+        jcr:uuid="0dee0e4f-b613-49e2-bd19-e5083c1934b5"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/taco_icon.png">
         <root

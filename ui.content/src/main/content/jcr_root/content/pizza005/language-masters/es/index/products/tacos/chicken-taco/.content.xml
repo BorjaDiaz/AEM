@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Taco de pollo"
-        jcr:uuid="570c54af-17a6-41dc-ba0b-cd2f46fa5fae"
+        jcr:uuid="c5c47a6c-0fa6-4cb3-bf69-21f86e95f1fd"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"
