@@ -59,23 +59,33 @@ body {
 }
 
 #abouttext{
-    margin: 30px 40px 0 40px;
+    width: 90%;
+    margin:0 auto;
+    & p {
+        margin:0;
+    }
 }
 
 #aboutimage{
-    padding: 30px;
-}
-
-#abouttitle{
-    margin-left: 20px;
 }
 
 #social1{
-  margin-top: 100px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    & .pzbf-social{
+        margin:0;
+        margin-left: 10px;
+    }
 }
 
 #social1 p{
     text-align: center;
+}
+
+#social1 a{
+    text-decoration: none;
 }
 
 #center_things{
@@ -84,4 +94,16 @@ body {
     justify-content: center;
     padding-top: 4vh;
     margin-bottom: 15vh;
+}
+#page-title .cmp-title__text{
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    &::before{
+        content: "";
+        width: 30px;
+        height: 5px;
+        background-color: #C00A27;
+        display: block;
+    }
 }
