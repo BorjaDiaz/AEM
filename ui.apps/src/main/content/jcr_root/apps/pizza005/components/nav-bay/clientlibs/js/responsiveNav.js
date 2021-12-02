@@ -32,33 +32,9 @@ linkedRes.forEach(element => {
     linkedArrayRes.push(element)
 });
 
-let noSPaceRes = linkedArrayRes.find(element => locString.includes(element.innerHTML.toLowerCase()))
+let noSPaceRes = linkedArrayRes.find(element => locString.includes(element.href))
 
-if (noSPaceRes == undefined){
-
-    if (locString.includes("index.html")){
-        
-        linkedArrayRes.find(element => element.innerHTML.toLowerCase() == 'order online').classList.toggle('activeLinkRes');
-    }
-
-    if (locString.includes("contact.html")){
-        
-        linkedArrayRes.find(element => element.innerHTML.toLowerCase() == 'store locator').classList.toggle('activeLinkRes');
-    }
-
-    else {
-        linkedArrayRes.forEach(element => {
-            if(element.innerHTML.toLowerCase().indexOf(' ') !== -1){
-    
-                if (locString.includes(element.innerHTML.toLowerCase().slice(0, element.innerHTML.toLowerCase().indexOf(' ')))){
-                    element.classList.toggle('activeLinkRes'); 
-                }
-            }
-        });
-    }
-}
-
-else {
+if (noSPaceRes != undefined){
     noSPaceRes.classList.toggle('activeLinkRes')
 }
 

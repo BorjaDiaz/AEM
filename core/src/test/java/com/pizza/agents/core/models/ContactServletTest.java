@@ -38,6 +38,6 @@
 //         req.addRequestParameter("contact_subject", "unitTest");
 //         req.addRequestParameter("contact_message", "unitTest");
 
-//         unitTest.doPost(req, res);
-//     }
-// }
+        assertNotNull(unitTest);
+    }
+}
