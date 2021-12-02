@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-12-01T13:16:10.988+01:00"
+        cq:lastModified="{Date}2021-11-28T10:32:34.733+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:primaryType="cq:PageContent"
@@ -15,25 +15,101 @@
             <experiencefragment
                 jcr:created="{Date}2021-11-26T11:57:48.795+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-12-01T11:30:03.952+01:00"
+                jcr:lastModified="{Date}2021-11-26T11:58:00.947+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/pizza005/language-masters/en/header/master"/>
+                fragmentVariationPath="/content/experience-fragments/pizza005/us/en/site/header/master"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/container"
                 editable="{Boolean}true"
                 layout="responsiveGrid"/>
+            <prefooterbase
+                jcr:created="{Date}2021-11-26T12:09:04.051+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-11-26T12:09:04.051+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="pizza005/components/prefooterbase">
+                <prefootercard
+                    jcr:created="{Date}2021-11-26T12:09:10.396+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-28T10:31:57.017+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/prefootercard"
+                    fileReference="/content/dam/pizza005/icons/bag_icon.png"
+                    text="Praesentpulvinarnequepellen\u0002tesquemattispretium"
+                    title="Best Quality">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </prefootercard>
+                <prefootercard_copy
+                    jcr:created="{Date}2021-11-26T12:09:10.396+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-28T10:31:36.005+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/prefootercard"
+                    fileReference="/content/dam/pizza005/icons/clock_icon.png"
+                    text="Praesentpulvinarnequepellen\u0002tesquemattispretium"
+                    title="On Time">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </prefootercard_copy>
+                <prefootercard_copy_755688619
+                    jcr:created="{Date}2021-11-26T12:09:10.396+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-28T10:32:15.218+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/prefootercard"
+                    fileReference="/content/dam/pizza005/icons/chef_icon.png"
+                    text="Praesentpulvinarnequepellen\u0002tesquemattispretium"
+                    title="MasterChefs">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </prefootercard_copy_755688619>
+                <prefootercard_copy_1089696916
+                    jcr:created="{Date}2021-11-26T12:09:10.396+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-28T10:32:34.730+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="pizza005/components/prefootercard"
+                    fileReference="/content/dam/pizza005/icons/food_icon.png"
+                    text="Praesentpulvinarnequepellen\u0002tesquemattispretium"
+                    title="Taste Food">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </prefootercard_copy_1089696916>
+            </prefooterbase>
             <experiencefragment_268873608
                 cq:styleIds="[1637716077660]"
                 jcr:created="{Date}2021-11-26T11:57:50.778+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-12-01T11:39:13.954+01:00"
+                jcr:lastModified="{Date}2021-11-26T12:07:06.578+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="pizza005/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/pizza005/language-masters/en/footer/master"/>
+                fragmentVariationPath="/content/experience-fragments/pizza005/us/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

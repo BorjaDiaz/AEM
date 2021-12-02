@@ -23,13 +23,6 @@
                         text="Add facebook link?"
                         uncheckedValue="false"
                         value="true"/>
-                    <linkfb
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Link"
-                        fieldDescription="Enter your Facebook link"    
-                        validation="socialURL"                   
-                        name="./linkfb"/> 
                     <tw
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
@@ -37,12 +30,6 @@
                         text="Add twitter link?"
                         uncheckedValue="false"
                         value="true"/>
-                    <linktw
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Link"
-                        name="./linktw"
-                        fieldDescription="Enter your Twitter link"/>
                     <li
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
@@ -50,12 +37,6 @@
                         text="Add linkedin link?"
                         uncheckedValue="false"
                         value="true"/>
-                    <linkli
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Link"
-                        name="./linkli"
-                        fieldDescription="Enter your LinkedIn link"/>
                     <rs
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
@@ -63,12 +44,6 @@
                         text="Add rss link?"
                         uncheckedValue="false"
                         value="true"/>
-                    <linkrs
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Link"
-                        name="./linkrs"
-                        fieldDescription="Enter your RSS link"/>
                     <yt
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
@@ -76,12 +51,6 @@
                         text="Add youtube link?"
                         uncheckedValue="false"
                         value="true"/>
-                    <linkyt
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Link"
-                        name="./linkyt"
-                        fieldDescription="Enter your Youtube link"/>
                     <in
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
@@ -89,12 +58,6 @@
                         text="Add instagram link?"
                         uncheckedValue="false"
                         value="true"/>
-                    <linkin
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Link"
-                        name="./linkin"
-                        fieldDescription="Enter your Instagram link"/>
                     <mail
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
@@ -102,21 +65,13 @@
                         text="Add mail link?"
                         uncheckedValue="false"
                         value="true"/>
-                    <linkmail
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Link"
-                        name="./linkmail"
-                        fieldDescription="Enter your e-mail link"/>
                     <id
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="ID"
-                        name="./id"
-                         required="{Boolean}true"
-                        fieldDescription="HTML ID attribute to apply to the component."/>
+                        name="./id"/>
                 </items>
             </column>
         </items>
-    </content>    
+    </content>
 </jcr:root>
