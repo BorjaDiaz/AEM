@@ -34,15 +34,15 @@
                                         jcr:primaryType="nt:unstructured"
                                         sling:resourceType="granite/ui/components/coral/foundation/container">
                                         <items jcr:primaryType="nt:unstructured">
-                                            <limited
+                                            <text
                                                 jcr:primaryType="nt:unstructured"
-                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                                                fieldDescription="Add limited time offer subtitle"
-                                                maxlength="20"
-                                                name="./islimited"
-                                                text="is a limited time offer?"
-                                                uncheckedValue="false"
-                                                value="true"/>
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Text"
+                                                fieldDescription="Text"
+                                                fieldLabel="Text"
+                                                maxlength="35"
+                                                name="./text"
+                                                validation="pzby-teaser-title-val"/>
                                             <title
                                                 jcr:primaryType="nt:unstructured"
                                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
