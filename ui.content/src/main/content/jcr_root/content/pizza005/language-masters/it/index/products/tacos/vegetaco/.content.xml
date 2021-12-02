@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Vegetaco ·"
-        jcr:uuid="6d903d24-af32-4cde-b2a5-f7f0cb8e97c7"
+        jcr:uuid="35da1cf4-9b72-4934-8553-1873c6204ebe"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

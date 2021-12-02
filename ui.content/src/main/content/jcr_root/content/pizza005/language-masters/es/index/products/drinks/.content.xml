@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Bebidas"
-        jcr:uuid="f446ddda-2501-4bf8-92f7-49a6588b3819"
+        jcr:uuid="ef5374ba-fc8a-46ee-8881-a384812fbf9e"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/drink_icon.png">
         <root

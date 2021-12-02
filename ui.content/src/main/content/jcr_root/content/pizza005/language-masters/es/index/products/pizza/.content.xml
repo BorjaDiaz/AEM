@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pizza"
-        jcr:uuid="1279c0d0-1fc7-4ce1-a404-73d5aa2865f4"
+        jcr:uuid="db775615-0d27-43d4-9a2a-2d89e082151f"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/pizza_icon.png">
         <root

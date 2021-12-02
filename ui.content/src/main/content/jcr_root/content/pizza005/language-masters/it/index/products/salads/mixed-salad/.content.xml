@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Insalata mista"
-        jcr:uuid="e81946d9-ca2e-41e7-8fbd-414a586bc6f5"
+        jcr:uuid="ef668747-8dbc-455a-8bef-a8569373a7b4"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

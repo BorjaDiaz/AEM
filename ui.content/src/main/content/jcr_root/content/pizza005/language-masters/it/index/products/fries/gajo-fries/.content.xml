@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Gajo patatine fritte"
-        jcr:uuid="60803e50-caec-459c-b3a7-850ce799371b"
+        jcr:uuid="996ffce0-fe0c-4eaf-96c1-52972aa2ff45"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

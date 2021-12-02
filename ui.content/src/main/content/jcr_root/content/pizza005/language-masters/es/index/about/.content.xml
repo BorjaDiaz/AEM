@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Acerca de"
-        jcr:uuid="ae10e49b-fde1-4820-bb83-9927cb490066"
+        jcr:uuid="c46ece3b-73d2-419b-b2d0-f79b44a331b1"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

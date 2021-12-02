@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Involucro Italia"
-        jcr:uuid="19917501-0ced-49c0-8f7a-abbef677dc4c"
+        jcr:uuid="6e54f72a-9b06-4cee-a069-74f6deaa908b"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

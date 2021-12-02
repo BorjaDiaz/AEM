@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Codebay Mega"
-        jcr:uuid="49300ae0-c800-48cd-a151-d215c788294e"
+        jcr:uuid="7b1cb70e-959d-43a7-82bf-beada7227753"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root

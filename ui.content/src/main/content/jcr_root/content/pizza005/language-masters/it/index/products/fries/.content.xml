@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Patatine fritte"
-        jcr:uuid="3e305c33-6f4c-4c8c-9645-4a2b60ca3e1f"
+        jcr:uuid="4b9a7109-cc8e-4858-b591-fc703720ef33"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root

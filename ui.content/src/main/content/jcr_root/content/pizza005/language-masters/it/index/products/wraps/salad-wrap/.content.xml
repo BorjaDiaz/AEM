@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Involucro di insalata"
-        jcr:uuid="97566088-4336-41de-9cf5-23155bd3aec5"
+        jcr:uuid="47d7430e-5923-4f8b-9d7c-e8a5a0a46cc4"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

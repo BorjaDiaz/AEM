@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-01T14:56:48.489+01:00"
+        cq:lastModified="{Date}2021-12-02T12:08:22.220+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         jcr:isCheckedOut="{Boolean}true"
@@ -24,21 +24,46 @@
                 <carousel_bay
                     jcr:created="{Date}2021-11-26T12:22:25.218+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-11-26T12:22:25.218+01:00"
+                    jcr:lastModified="{Date}2021-12-02T12:07:40.981+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="pizza005/components/carousel-bay">
+                    sling:resourceType="pizza005/components/carousel-bay"
+                    autopauseDisabled="false"
+                    autoplay="false"
+                    delay="5000">
                     <teaser_bay
-                        jcr:created="{Date}2021-11-26T12:22:31.147+01:00"
+                        cq:panelTitle="1"
+                        jcr:created="{Date}2021-12-02T11:59:12.713+01:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-11-29T08:25:55.737Z"
+                        jcr:lastModified="{Date}2021-12-02T12:00:57.015+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="pizza005/components/teaser-bay"
-                        fileReference="/content/dam/pizza005/bb-chicken.jpg"
+                        fileReference="/content/dam/pizza005/es/salad1.jpg"
                         islimited="true"
+                        text="New Offer"
                         textIsRich="true"
-                        title="DELUXE BBQ CHICKEN"/>
+                        title="NORMAL SALAD"/>
+                    <item_1638443134309
+                        cq:panelTitle="2"
+                        jcr:lastModified="{Date}2021-12-02T12:06:28.042+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/teaser-bay"
+                        fileReference="/content/dam/pizza005/es/chicken taco.jpg"
+                        text="New Offer"
+                        textIsRich="true"
+                        title="WRAPS PREMIUM"/>
+                    <item_1638443259374
+                        cq:panelTitle="3"
+                        jcr:lastModified="{Date}2021-12-02T12:08:22.216+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="pizza005/components/teaser-bay"
+                        fileReference="/content/dam/pizza005/en/bb-chicken.jpg"
+                        text="Limit time offer"
+                        textIsRich="true"
+                        title="DELUXE BBQ "/>
                 </carousel_bay>
                 <container
                     jcr:created="{Date}2021-11-26T12:12:22.138+01:00"

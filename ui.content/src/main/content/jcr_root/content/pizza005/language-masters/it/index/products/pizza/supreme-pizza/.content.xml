@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pizza Suprema"
-        jcr:uuid="cb59e845-c4cd-4d5b-bd3c-1a4b4e3e2e3d"
+        jcr:uuid="2680178a-7cfc-4d94-b588-5411ffcc77dc"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

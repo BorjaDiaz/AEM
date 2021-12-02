@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Agua"
-        jcr:uuid="64fa09c6-fd81-4533-9f0b-bcb25ca558dc"
+        jcr:uuid="e18bd614-9f03-45e2-bd79-5529b50eb44b"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

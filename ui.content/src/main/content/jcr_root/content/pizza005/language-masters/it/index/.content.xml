@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pagina iniziale"
-        jcr:uuid="cbc3e195-3a67-4ea9-b25d-3164486596a6"
+        jcr:uuid="6627d763-e998-4911-a8e7-5a42cbec0baf"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/pizzabay_logo.png">
         <root

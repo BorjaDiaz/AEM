@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Amante de vegge"
-        jcr:uuid="b7200587-8eaf-4991-b27a-a662542af802"
+        jcr:uuid="8398c41c-a671-475f-8499-0d9ea4093046"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

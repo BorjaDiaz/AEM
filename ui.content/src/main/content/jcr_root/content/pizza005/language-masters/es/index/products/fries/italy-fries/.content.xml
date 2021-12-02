@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Papas fritas Italia"
-        jcr:uuid="bb525060-657f-4231-9858-f96ce5adb3cc"
+        jcr:uuid="40f547b3-2454-48cf-9dde-0ef1ff0ee5eb"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

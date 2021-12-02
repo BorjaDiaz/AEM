@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Envoltura de Italia"
-        jcr:uuid="a2f92b0f-fdef-48b6-a0c6-6265033ca9e8"
+        jcr:uuid="0083d4cf-e878-4576-87fc-ccb255652b74"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

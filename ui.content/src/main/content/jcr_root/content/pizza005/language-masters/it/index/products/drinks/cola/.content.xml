@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Cola"
-        jcr:uuid="fc7e8ae3-c377-4a38-b265-1d25f5b78c0e"
+        jcr:uuid="f494c583-cf07-4432-989f-810074e6dcb7"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Hamburger di cheesy"
-        jcr:uuid="704fea9e-0d48-4f57-9ca0-ed13d364ed59"
+        jcr:uuid="b3ed1418-b46d-4c75-a432-d2eb21197a46"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

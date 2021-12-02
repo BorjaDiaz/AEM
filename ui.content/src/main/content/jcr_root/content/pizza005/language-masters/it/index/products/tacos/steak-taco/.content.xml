@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Taco di bistecca"
-        jcr:uuid="23ec1c66-4ddb-42c6-a49a-af3901a9430a"
+        jcr:uuid="4f4167b6-1aa3-4452-b716-898ac5c86baa"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

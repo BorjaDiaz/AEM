@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Hamburguesa Big Pizzabay"
-        jcr:uuid="981c2dbc-7595-4dc8-8353-b1bc6b078d28"
+        jcr:uuid="c4efe590-c78b-4e59-b109-14a5a6b50c0f"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

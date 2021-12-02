@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Papas fritas picantes"
-        jcr:uuid="a1d7f3aa-f750-4b2d-b8a1-1dfa39ae7a38"
+        jcr:uuid="789f1765-bdf5-46ed-be2d-6f17199055bf"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

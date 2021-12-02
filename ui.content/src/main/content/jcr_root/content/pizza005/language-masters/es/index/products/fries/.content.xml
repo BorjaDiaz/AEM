@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Papas fritas"
-        jcr:uuid="028b85b4-74ec-4878-85b3-ba5565791c3f"
+        jcr:uuid="3c42b1dc-366b-4b9a-8699-017ce69b50a4"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root

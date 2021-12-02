@@ -16,7 +16,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Hamburguesa de ternesca"
-        jcr:uuid="d4f0848d-eb5d-4170-ba8a-89ca29f29432"
+        jcr:uuid="125729e6-d7e9-44c4-9c19-106fbfd6c802"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"
