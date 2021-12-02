@@ -1,0 +1,37 @@
+
+
+<div   data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+       data-sly-use.model="com.pizza.agents.core.models.ProductsManager"
+       data-sly-test.hasContent="${model.pathList}">
+
+    <ul id="products-paginate" data-sly-list.compInfo="${model.pathList}">
+    <li>
+        <div class="product_image"  alt="Avatar" data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/image'}"></div>
+       <div class="product_content">
+           <div class="product_title"  alt="Avatar" data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/title'}"></div>
+           <div class="product_description"  alt="Avatar" data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/text'}"></div>
+           <div class="product_orderText"  alt="Avatar" data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/text_726754299'}"></div>
+
+           <div class="pzbf-card__container__options__products">
+               <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements">
+                   <input type="radio" name="products" class="pzbf-card__container__options__input"/>
+                   <div  class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements" data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/text_1280387070'}" ></div>
+                   <div class="pzbf-card__container__options__price__unit" data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/text_536436341'}" ></div>
+               </label>
+               <label class="pzbf-card__container__options__price pzbf-card__container__options__price--complements">
+                   <input type="radio" name="products" class="pzbf-card__container__options__input"/>
+                   <div  class="pzbf-card__container__options__unit pzbf-card__container__options__unit--complements"  data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/text_1310728108'}" ></div>
+                   <div class="pzbf-card__container__options__price__unit" data-sly-resource="${compInfo.path @ appendPath='jcr:content/root/text_1423635834'}" ></div>
+               </label>
+           </div>
+           <button class="pzbf-card__container__products__button"><i class="fas fa-shopping-bag pzbf-card__container__icon pzbf-card__container__icon--complements"></i>Add to Order</button>
+
+       </div>
+
+    </li>
+
+    </ul>
+
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"></sly>
+

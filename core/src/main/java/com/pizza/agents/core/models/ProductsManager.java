@@ -14,6 +14,7 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import org.apache.sling.models.annotations.Optional;
 
 @Model(adaptables = Resource.class)
 public class ProductsManager {
@@ -22,11 +23,16 @@ public class ProductsManager {
 
     private final Logger log = LoggerFactory.getLogger(ProductsManager.class);
 
-    @Inject
-    private String linkURL;
+    @Inject @Optional
+    private String productsRoute;
+
+    @SlingObject
+    private Resource currentResource;
 
     @SlingObject
     private ResourceResolver resourceResolver;
+
+
 
     @PostConstruct
     protected void init() {
@@ -34,21 +40,21 @@ public class ProductsManager {
             PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
 
             if (pageManager != null){
-                Page goalPage = pageManager.getContainingPage(resourceResolver.getResource(linkURL));
+                Page goalPage = pageManager.getContainingPage(pageManager.getContainingPage(currentResource).getPath());
 
                 Iterator<Page> iterationPoint = goalPage.listChildren();
 
                 while(iterationPoint.hasNext()){
 
                     Page element = iterationPoint.next();
-
-                    String icon = element.getProperties().get("linkAsset").toString();
-
                     ProductParent item = new ProductParent();
+                    String icon;
 
-                    if (icon != null){
+                    if(element.getProperties().get("linkAsset")!=null) {
+                        icon = element.getProperties().get("linkAsset").toString();
                         item.setAsset(icon);
                     }
+
 
                     item.setTitle(element.getTitle());
 

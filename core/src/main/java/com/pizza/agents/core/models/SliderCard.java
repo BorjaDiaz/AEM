@@ -42,8 +42,8 @@ public class SliderCard {
 
 
 
-    private ArrayList<SliderCardInfo> componentsInfo=new ArrayList<>();
-    private SliderCardInfo componentInfo=new SliderCardInfo();
+    private ArrayList<ProductsInfo> componentsInfo=new ArrayList<>();
+    private ProductsInfo componentInfo=new ProductsInfo();
 
 
     @Inject @Optional
@@ -61,7 +61,7 @@ public class SliderCard {
                 StringBuilder str = new StringBuilder();
                 page = pageManager.getContainingPage(rsc);
 
-                    componentInfo=new SliderCardInfo();
+                    componentInfo=new ProductsInfo();
 
                     str.append("OBTAINING DATA FROM: ").append(rsc.getName()).append(" en ").append(rsc.getPath());
                     loggerCard.info(str.toString());
@@ -92,7 +92,7 @@ public class SliderCard {
 
 
 
-    public ArrayList<SliderCardInfo> getComponentsInfo() {
+    public ArrayList<ProductsInfo> getComponentsInfo() {
         return componentsInfo;
     }
 }
