@@ -7,35 +7,10 @@ linked.forEach(element => {
     linkedArray.push(element)
 });
 
-let noSpace = linkedArray.find(element => locString.includes(element.innerHTML.toLowerCase()))
+let noSpace = linkedArray.find(element => locString.includes(element.href))
 
-if (noSpace == undefined){
+if (noSpace != undefined){
 
-    if (locString.includes("index.html")){
-        
-        linkedArray.find(element => element.innerHTML.toLowerCase() == 'order online').classList.toggle('activeLink');
-    }
-
-    if (locString.includes("contact.html")){
-
-        console.log(linkedArray)
-        
-        linkedArray.find(element => element.innerHTML.toLowerCase() == 'store locator').classList.toggle('activeLink');
-    }
-
-    else {
-        linkedArray.forEach(element => {
-            if(element.innerHTML.toLowerCase().indexOf(' ') !== -1){
-    
-                if (locString.includes(element.innerHTML.toLowerCase().slice(0, element.innerHTML.toLowerCase().indexOf(' ')))){
-                    element.classList.toggle('activeLink'); 
-                }
-            }
-        });
-    }
-}
-
-else {
     noSpace.classList.toggle('activeLink')
 }
 

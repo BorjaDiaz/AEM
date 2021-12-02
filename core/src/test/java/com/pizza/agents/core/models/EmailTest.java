@@ -12,11 +12,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class EmailTest {
 
     AemContext aemContext = new AemContext();
-    Email email;
+    Email emails;
 
     @BeforeEach
     void setUp() {
-        aemContext.addModelsForClasses(Link.class);
+        aemContext.addModelsForClasses(Email.class);
         aemContext.load().json("/com/pizza/agents/core/models/EmailTest.json", "/component");
     }
 
@@ -24,5 +24,6 @@ class EmailTest {
     void sendEmail() {
 
         aemContext.currentResource("/component/email");
-        email = aemContext.request().adaptTo(Email.class);}
+        emails = aemContext.request().adaptTo(Email.class);
+    }
 }
