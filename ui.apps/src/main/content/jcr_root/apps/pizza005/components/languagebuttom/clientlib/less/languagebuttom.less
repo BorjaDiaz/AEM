@@ -17,12 +17,6 @@
 	background-color: #C00A27;
 	&:hover{background-color: #84061A;}
 }
-.pzbf-languagebuttom__list__current::after{
-	content: "\f0d1";
-	display: inline-block;
-	color: #fff;
-}
-
 .pzbf-languagebuttom ul li a {
 	display: inline-block;
 	text-decoration: none;
@@ -78,6 +72,16 @@
 .pzbf-languagebuttom ul li ul li a:hover {
 	position: relative;
 }
+
+.pzbf-languagebuttom__list__current{
+	display: flex;
+	justify-content: center;
+	& em.fa-sort-down{
+		color: white;
+		padding: 8px 0;
+		text-align: center;}
+}
+
 @media only screen and (max-width: 1200px) {
     .pzbf-languagebuttom {display: none;}
 }
