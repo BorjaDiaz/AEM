@@ -4,10 +4,10 @@
     <jcr:content
         cq:cloudserviceconfigs="[cloudconfigs/translation/translationcfg/default_translation,cloudconfigs/translation/msft-translation/msft_trial]"
         cq:conf=""
-        cq:lastModified="{Date}2021-12-02T13:24:35.381+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:30.266+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:35.381+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:20.668+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:30.266+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:17.650+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProject="[/content/projects/pizzabay_translation/pizzabay_translation]"

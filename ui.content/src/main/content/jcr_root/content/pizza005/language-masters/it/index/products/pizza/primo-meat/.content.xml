@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T13:24:38.216+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:33.036+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:38.216+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:21.030+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:33.036+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:17.984+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Primo Carne"
-        jcr:uuid="835f025f-60ca-43ff-8e88-e8a8bb7a30d2"
+        jcr:uuid="ff67c3a7-88d0-47ee-905d-252e6f2deb2c"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T13:24:40.180+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:35.713+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:40.180+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:21.333+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:35.713+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:18.297+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Insalata rossa"
-        jcr:uuid="03e01f7a-10f7-4d20-87fb-67c8b37b4bf5"
+        jcr:uuid="08774561-8ea0-42c4-a9ca-c8d010a0c88c"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

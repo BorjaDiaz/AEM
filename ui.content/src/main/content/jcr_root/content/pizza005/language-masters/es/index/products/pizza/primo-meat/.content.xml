@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T13:24:40.840+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:34.966+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:40.841+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:17.743+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:34.966+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:15.134+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,11 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/pizza/primo-meat"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:language="es"
+        jcr:language="en"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Carne Primo"
-        jcr:uuid="23959d12-5184-44d7-a1ea-f7efb05ee6ee"
+        jcr:uuid="cb8faaf6-4aa4-49a0-bf07-522316ea163f"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

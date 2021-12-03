@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T13:24:43.714+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:38.598+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:43.714+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:18.093+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:38.598+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:15.447+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Taco de bistec"
-        jcr:uuid="74e95f8a-0d29-44b3-86a6-ffd2c2b94f7c"
+        jcr:uuid="12899bfd-d304-4b55-93b2-f910a3012902"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"
