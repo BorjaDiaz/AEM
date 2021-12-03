@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T13:24:45.301+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:40.818+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:45.301+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:18.305+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:40.818+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:15.624+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Papas fritas Gajo"
-        jcr:uuid="d92eea3b-5028-4186-b38d-7db6f07717d4"
+        jcr:uuid="ddc45869-582c-48f0-8590-466db13cd1f0"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

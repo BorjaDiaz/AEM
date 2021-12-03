@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T15:21:05.680+01:00"
-        cq:lastModifiedBy="admin"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:35.755+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:20.726+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:30.647+01:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:30.647+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:17.688+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pagina iniziale"
-        jcr:uuid="f355d96f-5f07-432f-9485-8f0d2980d86b"
+        jcr:uuid="39ec168e-7219-4f69-b3c6-d9dffa4dec42"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/pizzabay_logo.png">
         <root
@@ -148,7 +148,7 @@
                 <tabs
                     jcr:created="{Date}2021-11-26T12:23:04.380+01:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-12-02T15:20:15.983+01:00"
+                    jcr:lastModified="{Date}2021-11-26T12:23:37.583+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="pizza005/components/tabs">
@@ -168,7 +168,7 @@
                             productsRoute="/content/pizza005/language-masters/it/index/products/pizza"/>
                     </item_1>
                     <item_2
-                        cq:panelTitle="Pizza"
+                        cq:panelTitle="Pizza Sets"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Scheda 2"
                         sling:resourceType="pizza005/components/container"
@@ -259,7 +259,7 @@
                                 width="3"/>
                         </cq:responsive>
                     </prefootercard_copy_267883161>
-                    <prefootercard_copy_1
+                    <prefootercard_copy_1054882747
                         jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2021-12-01T14:56:48.482+01:00"
@@ -269,23 +269,6 @@
                         fileReference="/content/dam/pizza005/icons/clock_icon.png"
                         text="Praesentpulvinarnequepellen tesquemattispretium"
                         title="In tempo">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="3"/>
-                        </cq:responsive>
-                    </prefootercard_copy_1>
-                    <prefootercard_copy_1054882747
-                        jcr:created="{Date}2021-12-01T14:54:45.286+01:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-12-02T15:21:05.675+01:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="pizza005/components/prefootercard"
-                        fileReference="/content/dam/pizza005/icons/clock_icon.png"
-                        text="Praesentpulvinarnequepellen tesquemattispretium"
-                        title="Il Meglio">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"

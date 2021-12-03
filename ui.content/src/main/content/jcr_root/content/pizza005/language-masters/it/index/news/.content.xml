@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T13:24:36.079+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:31.005+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:36.079+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:20.796+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:31.005+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:17.753+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/page-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -17,7 +17,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Notizie"
-        jcr:uuid="3c8bcf12-a895-42df-a6c1-e374c5f3807c"
+        jcr:uuid="3138fba2-44d2-4d76-aad6-cab0e22da673"
         sling:resourceType="pizza005/components/page">
         <root
             jcr:primaryType="nt:unstructured"

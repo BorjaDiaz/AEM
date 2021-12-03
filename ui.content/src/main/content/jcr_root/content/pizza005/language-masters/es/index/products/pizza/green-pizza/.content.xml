@@ -2,10 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-12-02T13:24:41.107+01:00"
+        cq:lastModified="{Date}2021-12-03T08:46:35.169+01:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationDone="{Date}2021-12-02T13:24:41.107+01:00"
-        cq:lastTranslationUpdate="{Date}2021-12-02T13:24:17.766+01:00"
+        cq:lastTranslationDone="{Date}2021-12-03T08:46:35.169+01:00"
+        cq:lastTranslationUpdate="{Date}2021-12-03T08:46:15.155+01:00"
         cq:template="/conf/pizza005/settings/wcm/templates/producs-template"
         cq:translationMethod="MACHINE_TRANSLATION"
         cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
@@ -13,11 +13,11 @@
         cq:translationSourcePath="/content/pizza005/language-masters/en/index/products/pizza/green-pizza"
         cq:translationStatus="APPROVED"
         jcr:isCheckedOut="{Boolean}true"
-        jcr:language="es"
+        jcr:language="en"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Pizza verde"
-        jcr:uuid="9f300774-9c85-482a-83a6-0d6a6c82881d"
+        jcr:uuid="0ce07b32-0929-4b9a-b4f1-1754c98ceab9"
         sling:resourceType="pizza005/components/page"
         linkAsset="/content/dam/pizza005/icons/fries_icon.png">
         <root
